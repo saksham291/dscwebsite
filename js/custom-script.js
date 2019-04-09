@@ -9,3 +9,8 @@ NOTE:
 ------
 PLACE HERE YOUR OWN JS CODES AND IF NEEDED.
 WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR CUSTOM SCRIPT IT'S BETTER LIKE THIS. */
+
+document.addEventListener('DOMContentLoaded', function () {
+	var elems = document.querySelectorAll('.sidenav');
+	var instances = M.Sidenav.init(elems);
+});

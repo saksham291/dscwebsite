@@ -26,14 +26,16 @@
       <!-- icons -->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-      <meta name="viewport" content="width=device-width, initial-scale=1.5">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
 <div class="navbar-fixed">
-  <nav style="height:12%;">
+  <nav>
       <div class="nav-wrapper white">
-        <a href="#" class="brand-logo grey-text text-darken-1" style="margin-top:0.7%;margin-left:20px;font-family: 'Arvo', serif;line-height:113%; font-size:150%"> <img src="new_logo.png" height="35%" alt=""> <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspIIT Bhilai</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down" style="margin-top:0.8%;margin-right:20px;">
+        <a href="#" class="brand-logo grey-text text-darken-1 center-align" style="margin-top:0.7%;margin-left:20px;font-family: 'Arvo', serif;line-height:113%; font-size:150%"> <img src="new_logo.png" height="35%" alt=""> <br>IIT Bhilai</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="sass.html" class="red-text">Events</a></li>
           <li><a href="badges.html" class="red-text">Projects</a></li>
           <li><a href="login.html" class="red-text">About us</a></li>
@@ -41,6 +43,13 @@
       </div>
     </nav>
 </div>
+
+<!-- Sidebar -->
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="sass.html" class="waves-effect">Events</a></li>
+  <li><a href="badges.html" class="waves-effect">Projects</a></li>
+  <li><a href="collapsible.html" class="waves-effect">About us</a></li>
+</ul>
 
 <section id="top" class="blue" style="height:100%">
 <div class="center" style="padding-top:4%;">
@@ -248,9 +257,9 @@
 
 </style>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 var instance = M.Tabs.init(el, options);
-</script>
+</script> -->
 
 
 </html>
