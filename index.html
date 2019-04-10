@@ -4,13 +4,16 @@
   <title>
     Developer Student Club - IIT Bhilai
   </title>
-
+  <!--custom-script.js - Add your own theme custom JS-->
+  <script type="text/javascript" src="js/custom-script.js"></script>
+  <!-- jQuery Library -->
+  <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
     <!-- CORE CSS-->
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <!-- Custome CSS-->
     <link href="css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-
+    <link rel="icon" type="image/ico" href="dsc_logo.png">
 
     <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
     <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
@@ -29,34 +32,38 @@
 <div class="navbar-fixed">
   <nav>
       <div class="nav-wrapper white">
-        <a href="#" class="brand-logo grey-text text-darken-1 center-align" style="margin-top:0.7%;margin-left:20px;font-family: 'Arvo', serif;line-height:113%; font-size:150%"> <img src="new_logo.png" height="35%" alt=""> <br>IIT Bhilai</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only left" style="margin:4%;"><i class="material-icons">menu</i></a>
+        <a href="#top" class="brand-logo grey-text text-darken-1" style="margin-top:0.7%;margin-left:1%;font-family: 'Arvo', serif;line-height:113%; font-size:120%"> <img src="new_logo.png" height="35%" alt=""> <br><p style="margin:0% 0% 0% 19%;">IIT Bhilai</p></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html" class="red-text">Events</a></li>
-          <li><a href="badges.html" class="red-text">Projects</a></li>
-          <li><a href="login.html" class="red-text">About us</a></li>
+          <li><a href="#top" class="grey-text text-darken-1"><b>Home</b></a></li>
+          <li><a href="#events" class="grey-text text-darken-1">Events</a></li>
+          <li><a href="#projects" class="grey-text text-darken-1">Projects</a></li>
+          <li><a href="aboutus.html" class="grey-text text-darken-1">About us</a></li>
+          <li><a href="contactus.html" class="grey-text text-darken-1">Contact us</a></li>
         </ul>
       </div>
     </nav>
 </div>
 
 <!-- Sidebar -->
-<ul class="sidenav" id="mobile-demo">
-  <li><a href="sass.html" class="waves-effect">Events</a></li>
-  <li><a href="badges.html" class="waves-effect">Projects</a></li>
-  <li><a href="collapsible.html" class="waves-effect">About us</a></li>
+<ul class="sidenav hide-on-large-only" id="slide-out">
+  <li><a href="index.html" class="waves-effect">Home</a></li>
+  <li><a href="#events" class="waves-effect">Events</a></li>
+  <li><a href="#projects" class="waves-effect">Projects</a></li>
+  <li><a href="aboutus.html" class="waves-effect">About us</a></li>
+  <li><a href="contactus.html" class="waves-effect">Contact us</a></li>
 </ul>
 
 <section id="top" class="blue" style="height:100%">
 <div class="center" style="padding-top:4%;">
-    <h4 class="login-form-text white-text" style="font-family: 'Arvo', serif; font-size:190%;margin-top:3%;margin-bottom:4%;">Developer Student Club<br>Powered by Google Developers</h4>
+    <h4 class="login-form-text white-text" style="font-family: 'Arvo', serif; font-size:190%;margin-top:1%;margin-bottom:4%;"><small>Indian Institute of Technology Bhilai</small><br>Developer Student Club<br>Powered by Google Developers</h4>
   <img src="019-workspace.svg" height="50%" alt="">
 </div>
-
 </section>
+<section id="events"></section>
 <!-- events start -->
-<section id="events" style="background-color:#f7f7f7">
-    <div class="col s12 container">
+<section style="background-color:#f7f7f7">
+    <div class="col s12 container" style="width:90%">
         <p class="login-form-text" style="font-family: 'Arvo', serif; font-size:20px;margin-top:4%;">Events</p>
         <div class="row">
 
@@ -64,30 +71,29 @@
             <div class="card medium">
               <div class="card-image">
                 <img src="background.png">
-                <span class="card-title">Concepts of Python and Basics of Machine Learning</span>
+                <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Inauguration Programme - DSC IIT Bhilai</span>
               </div>
               <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+                <p>Inauguration of the Developer Students Club at Indian Institute of Technology Bhilai.</p>
               </div>
               <div class="card-action">
-                <a href="#">This is a link</a>
+                <a href="#">Know more</a>
               </div>
             </div>
           </div>
+
 
           <div class="col s6 m6">
             <div class="card medium">
               <div class="card-image">
                 <img src="background.png">
-                <span class="card-title">Event 2</span>
+                <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Concepts of Python and Basics of Machine Learning</span>
               </div>
               <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+                <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML projects by students.</p>
               </div>
               <div class="card-action">
-                <a href="#">This is a link</a>
+                <a href="#">Know more</a>
               </div>
             </div>
           </div>
@@ -126,13 +132,13 @@
             </div>
           </div>
         </div>
-
     </div>
   </section>
  <!-- events end -->
+ <section id="projects"></section>
  <!-- projects start -->
-<section id="projects" style="background-color:#ffffff;">
- <div class="col s12 container" style="padding-bottom:1%;padding-top:3%;">
+<section id="project" style="background-color:#ffffff;">
+ <div class="col s12 container" style="padding-bottom:1%;padding-top:3%;width:90%">
      <p class="login-form-text" style="font-family: 'Arvo', serif; font-size:20px;">Projects</p>
      <div class="row">
 
@@ -179,20 +185,20 @@
            <div class="container">
              <div class="row">
                <div class="col l6 s12">
-                 <h5 class="white-text">Developer Student Club</h5>
-                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                 <p class="white-text" style="font-size:140%">Developer Student Club - Indian Institute of Technology Bhilai</p>
+                 <p class="grey-text text-lighten-4">Powered by Google Developers.</p>
                </div>
-               <div class="col l4 offset-l2 s12">
-                 <h5 class="white-text">Links</h5>
+
+               <div class="col l4 offset-l2 s12" style="margin-top:2%">
                  <ul>
-                   <li><a class="grey-text text-lighten-3" href="#!">Events</a></li>
-                   <li><a class="grey-text text-lighten-3" href="#!">Projects</a></li>
-                   <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
-                   <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+                   <li><a class="grey-text text-lighten-3" href="#events">Events</a></li>
+                   <li><a class="grey-text text-lighten-3" href="#projects">Projects</a></li>
+                   <li><a class="grey-text text-lighten-3" href="aboutus.html">About Us</a></li>
+                   <li><a class="grey-text text-lighten-3" href="contactus.html">Contact Us</a></li>
                  </ul>
                </div>
              </div>
-             <div class="row">
+             <div class="row white-text">
                © Copyright IIT Bhilai
                <a class="grey-text text-lighten-4 right" href="https://iitbhilai.ac.in">IIT Bhilai</a>
              </div>
@@ -204,8 +210,7 @@
   Scripts
   ================================================ -->
 
-  <!-- jQuery Library -->
-  <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
+
   <!--angularjs-->
   <!-- <script type="text/javascript" src="js/plugins/angular.min.js"></script> -->
   <!--materialize js-->
@@ -221,8 +226,7 @@
 
   <!--plugins.js - Some Specific JS codes for Plugin Settings-->
   <script type="text/javascript" src="js/plugins.min.js"></script>
-  <!--custom-script.js - Add your own theme custom JS-->
-  <script type="text/javascript" src="js/custom-script.js"></script>
+
 
 
 
@@ -238,7 +242,9 @@
   background-size: cover;
 
 } */
-
+html {
+  scroll-behavior: smooth;
+}
   .wrapper {
     min-height: 100%;
 
