@@ -31,7 +31,7 @@
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper white">
-      <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only left" style="margin:3.5%;"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only left"><i class="material-icons">menu</i></a>
       <a href="index.php#top" class="brand-logo grey-text text-darken-1" style="margin-top:0.7%;margin-left:1%;font-family: 'Arvo', serif;line-height:113%; font-size:120%"> <img src="new_logo.png" height="35%" alt=""> <br><p style="margin:0% 0% 0% 19%;">IIT Bhilai</p></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <?php $curr = basename($_SERVER['PHP_SELF']); ?>
