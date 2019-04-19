@@ -61,6 +61,7 @@ height: 100%;
         </div>
   </div>
 
+
   <div id="modal1" class="modal">
     <div class="modal-content">
       <h4>Inauguration Programme - DSC IIT Bhilai</h4>
