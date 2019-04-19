@@ -98,7 +98,9 @@ height: 100%;
      <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/islMT1Hgk1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
      <h5>MAC Users</h5>
-     Coming Soon
+     <div class="video-container">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/5jyZb23xWeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
 
    </div>
 
