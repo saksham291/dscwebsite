@@ -1,6 +1,6 @@
 <footer class="page-footer blue" style="padding-bottom:0.5%;">
-  <div class="container">
-    <div class="row">
+
+    <div class="row" style="margin-left:5%">
       <div class="col l6 s12">
         <p class="white-text" style="font-size:140%">Developer Student Club - Indian Institute of Technology Bhilai</p>
         <p class="grey-text text-lighten-4">Powered by Google Developers.</p>
@@ -15,11 +15,11 @@
         </ul>
       </div>
     </div>
-    <div class="row white-text">
+    <div class="row white-text" style="margin-left:5%">
       © Copyright IIT Bhilai
-      <a class="grey-text text-lighten-4 right" href="https://iitbhilai.ac.in">IIT Bhilai</a>
+      <a class="grey-text text-lighten-4 right" style="margin-right:10%" href="https://iitbhilai.ac.in">IIT Bhilai</a>
     </div>
-  </div>
+
 
 </footer>
 

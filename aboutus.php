@@ -13,11 +13,11 @@
   <main>
     <div class="parallax-container">
       <!-- TODO: Replace with group photo -->
-      <div class="parallax"><img src="https://materializecss.com/images/parallax2.jpg"></div>
+      <div class="parallax"><img src="parallax2.jpg"></div>
     </div>
 
     <div class="container" style="width:90%;">
-      <h4 class="login-form-text center" style="font-family: 'Arvo', serif; font-size:190%;margin-top:2%;margin-bottom:2%;"><small>Indian Institute of Technology Bhilai</small><br>Developer Student Club<br><span style="font-size:74%;">Powered by Google Developers</span></h4>
+      <h4 class="login-form-text center" style="font-family: 'Arvo', serif; font-size:190%;margin-top:2%;margin-bottom:2%;"><small style="font-size:40%;">Indian Institute of Technology Bhilai</small><br>Developer Student Club<br><span style="font-size:74%;">Powered by Google Developers</span></h4>
 
       <p style="margin-left:10%;">Google collaborates with university students who are passionate about growing developer communities and
         supports them with starting student clubs on their campuses.</p>

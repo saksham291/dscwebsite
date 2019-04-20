@@ -11,13 +11,14 @@
 <body>
 <?php require 'header.php'; ?>
     <main>
-        <div class="parallax-container">
-            <!-- TODO: Replace with group photo -->
-            <div class="parallax"><img src="https://materializecss.com/images/parallax2.jpg"></div>
-        </div>
+      <div class="parallax-container">
+        <!-- TODO: Replace with group photo -->
+        <div class="parallax"><img src="parallax2.jpg"></div>
+      </div>
 
-        <div class="container">
-            <h2>About DSC</h2>
+        <div class="container" style="margin-bottom:8%;">
+          <h4 class="login-form-text center" style="font-family: 'Arvo', serif; font-size:190%;margin-top:2%;margin-bottom:2%;">Projects<br><small style="font-size:60%;">Developer Student Club</small></h4>
+            <p>Developer Student Club - IIT Bhilai is working on projects related to Machine Learning, Cloud Development, Blockchain and many more.</p>
             <p>Google collaborates with university students who are passionate about growing developer communities and
                 supports them with starting student clubs on their campuses.</p>
             <p>These DSCs provide students with the opportunity to:</p>
