@@ -35,7 +35,7 @@
   <!--angularjs-->
   <!-- <script type="text/javascript" src="js/plugins/angular.min.js"></script> -->
   <!--materialize js-->
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
   <!--angular-materialize js-->
   <!-- <script type="text/javascript" src="js/plugins/angular-materialize.js"></script> -->
   <!--prism -->

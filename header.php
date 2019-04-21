@@ -13,9 +13,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- jQuery Library -->
-<script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
+<!-- <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script> -->
   <!-- CORE CSS-->
-  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
   <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
   <!-- Custome CSS-->
   <link href="css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
