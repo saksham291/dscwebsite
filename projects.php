@@ -35,4 +35,5 @@
     </main>
 </body>
 <?php require 'footer.php'; ?>
+<script src="js/parallax.js"></script>
 </html>
