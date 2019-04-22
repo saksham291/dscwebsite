@@ -40,7 +40,7 @@ height: 100%;
                 <p>Inauguration of the Developer Students Club at Indian Institute of Technology Bhilai.</p>
               </div>
               <div class="card-action">
-                <a href="#modal1" class="modal-trigger">Know more</a>
+                <a href="event_inauguration.php" class="modal-trigger">Know more</a>
               </div>
             </div>
           </div>
