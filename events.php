@@ -44,7 +44,7 @@
 						<p>Inauguration of the Developer Students Club at Indian Institute of Technology Bhilai.</p>
 					</div>
 					<div class="card-action">
-						<a href="event_inauguration.php" class="modal-trigger">Know more</a>
+						<a href="event_inauguration.php">Know more</a>
 					</div>
 				</div>
 			</div>
@@ -59,7 +59,7 @@
 						<p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML projects by students.</p>
 					</div>
 					<div class="card-action">
-						<a class="modal-trigger" href="#modal2">Know More</a>
+						<a href="#">Know More</a>
 					</div>
 				</div>
 			</div>
