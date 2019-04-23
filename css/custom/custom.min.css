@@ -15,3 +15,7 @@ main {
 .arvo {
   font-family: 'Arvo', serif;
 }
+
+.card {
+  border-radius: 10px !important;
+}

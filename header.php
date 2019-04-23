@@ -16,8 +16,7 @@
 <!-- <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script> -->
   <!-- CORE CSS-->
   <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <!-- Custome CSS-->
-  <link href="css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  
   <link rel="icon" type="image/ico" href="dsc_logo.png">
 
 <!-- Compiled and minified CSS -->
@@ -25,6 +24,9 @@
 
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- Custome CSS-->
+<link href="css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
 
 <!-- navbar -->
 <div class="navbar-fixed">
