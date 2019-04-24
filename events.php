@@ -34,7 +34,7 @@
 		<p class="login-form-text" style="font-family: 'Arvo', serif; font-size:20px;margin-top:4%;">Events</p>
 		<div class="row">
 			<div class="col s12 m6 l4">
-				<div class="card">
+				<div class="card hoverable">
 					<div class="card-image">
 						<img src="background.png">
 						<span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Inauguration Programme - DSC IIT Bhilai</span>
@@ -49,7 +49,7 @@
 				</div>
 			</div>
 			<div class="col s12 m6 l4">
-				<div class="card">
+				<div class="card hoverable">
 					<div class="card-image">
 						<img src="background.png">
 						<span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Concepts of Python and Basics of Machine Learning</span>
