@@ -16,7 +16,9 @@
     <h4 class="login-form-text white-text" style="font-family: 'Arvo', serif; font-size:190%;margin-top:1%;margin-bottom:4%;"><small style="font-size:45%;">Indian Institute of Technology Bhilai</small><br>Developer Student Club<br>Powered by Google Developers</h4>
   <img src="019-workspace.svg" height="50%" alt="">
 </div>
+<br><br><br><br><br>
 </section>
+
 <section id="events"></section>
 <!-- events start -->
 <section style="background-color:#f7f7f7">
