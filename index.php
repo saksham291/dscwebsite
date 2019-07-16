@@ -5,36 +5,21 @@
   <title>
     Developer Student Club - IIT Bhilai
   </title>
-
+<link rel="stylesheet" type="text/css" href="css/custom_style.css">
 </head>
 
 <body>
-<<<<<<< HEAD
-<section id="top"></section>
-<?php require 'header.php'; ?>
-<section id="top1" class="blue" style="height:100%">
-<div class="center" style="padding-top:4%;">
-    <h4 class="login-form-text white-text" style="font-family: 'Arvo', serif; font-size:190%;margin-top:1%;margin-bottom:4%;"><small style="font-size:45%;">Indian Institute of Technology Bhilai</small><br>Developer Student Club<br>Powered by Google Developers</h4>
-  <img src="019-workspace.svg" height="50%" alt="">
-</div>
-</section>
-
-<section id="events"></section>
-<!-- events start -->
-<section style="background-color:#f7f7f7">
-=======
   <section id="top"></section>
   <?php require 'header.php'; ?>
-  <section id="top1" class="blue" style="height:100%">
+  <section id="top1" class="blue full-page">
     <div class="center" style="padding-top:4%;">
-      <h4 class="login-form-text white-text" style="font-family: 'Arvo', serif; font-size:190%;margin-top:1%;margin-bottom:4%;"><small style="font-size:45%;">Indian Institute of Technology Bhilai</small><br>Developer Student Club<br>Powered by Google Developers</h4>
-      <img src="019-workspace.svg" height="50%" alt="">
+      <h4 class="white-text main-text"><small class="small-text">Indian Institute of Technology Bhilai</small><br>Developer Student Club<br>Powered by Google Developers</h4>
+      <img class="main-img" src="019-workspace.svg" alt="">
     </div>
   </section>
   <section id="events"></section>
   <!-- events start -->
   <section style="background-color:#f7f7f7">
->>>>>>> a660f279729415fd6ca30b93313117ebd596526b
     <div class="col s12 container" style="width:90%">
       <div class="row">
         <div class="col s6 m6">
