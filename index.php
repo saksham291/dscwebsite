@@ -17,13 +17,12 @@
       <img class="main-img" src="019-workspace.svg" alt="">
     </div>
   </section>
-  <section id="events"></section>
   <!-- events start -->
-  <section style="background-color:#f7f7f7">
+  <section class="bg-grey">
     <div class="col s12 container" style="width:90%">
       <div class="row">
         <div class="col s6 m6">
-          <p class="login-form-text" style="font-family: 'Arvo', serif; font-size:20px;margin-top:6%;margin-bottom:0%;">Events </p>
+          <p class="subtopic" style="">Events </p>
         </div>
         <div class="col s6 m6">
           <p class="right" style="margin-top:6%;"><a href="events.php" class="grey-text text-darken-1">All Events</a></p>
@@ -65,13 +64,13 @@
   </section>
   <!-- events end -->
 
-  <section id="projects"></section>
+
   <!-- projects start -->
-  <section id="project" style="background-color:#ffffff;">
-    <div class="col s12 container" style="padding-bottom:1%;padding-top:3%;width:90%">
+  <section id="project"  class="bg-white">
+    <div class="col s12 container" style="width:90%;">
       <div class="row">
         <div class="col s6 m6">
-          <p class="login-form-text" style="font-family: 'Arvo', serif; font-size:20px;margin-top:6%;margin-bottom:0%;">Projects </p>
+          <p class="subtopic">Projects </p>
         </div>
         <div class="col s6 m6">
           <p class="right" style="margin-top:6%;"><a href="projects.php" class="grey-text text-darken-1">All Projects</a></p>

@@ -21,6 +21,21 @@
   height:50%;
 }
 
+.subtopic{
+  font-family: 'Arvo', serif;
+  font-size:20px;
+  margin-top:6%;
+  margin-bottom:0%;
+  text-transform: uppercase;
+  color:grey;
+}
+
+.bg-white{
+  background-color:#ffffff;
+}
+.bg-grey{
+  background-color:#f7f7f7;
+}
 @media only screen and (max-width: 600px) {
   .main-img{
     height:40%;
