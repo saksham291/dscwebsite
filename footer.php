@@ -1,6 +1,6 @@
-<footer class="page-footer blue" style="padding-bottom:0.5%;">
+<footer class="page-footer blue" style="padding-bottom:0.5%;margin-top:1%;">
 
-    <div class="row" style="margin-left:5%">
+    <div class="row" style="margin-left:4%">
       <div class="col l6 s12">
         <p class="white-text" style="font-size:140%">Developer Student Club - Indian Institute of Technology Bhilai</p>
         <p class="grey-text text-lighten-4">Powered by Google Developers.</p>
@@ -8,8 +8,8 @@
 
       <div class="col l4 offset-l2 s12" style="margin-top:2%">
         <ul>
-          <li><a class="grey-text text-lighten-3" href="index.php#events">Events</a></li>
-          <li><a class="grey-text text-lighten-3" href="index.php#projects">Projects</a></li>
+          <li><a class="grey-text text-lighten-3" href="events.php">Events</a></li>
+          <li><a class="grey-text text-lighten-3" href="projects.php">Projects</a></li>
           <li><a class="grey-text text-lighten-3" href="aboutus.php">About Us</a></li>
           <li><a class="grey-text text-lighten-3" href="contactus.php">Contact Us</a></li>
         </ul>
