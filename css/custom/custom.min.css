@@ -1,13 +1,23 @@
 .material-icons {
-  color: rgba(0, 0, 0, 0.54);
+  color: black;
 }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+button>.material-icons {
+  color: white;
 }
 
 main {
   flex: 1 0 auto;
+}
+
+.arvo {
+  font-family: 'Arvo', serif;
+}
+
+.card {
+  border-radius: 10px !important;
+}
+
+.card-action {
+  text-align: right;
 }

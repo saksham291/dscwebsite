@@ -82,7 +82,7 @@
     </div>
   </main>
   <?php require 'footer.php'; ?>
-  <script src="js/aboutus.js"></script>
+  <script src="js/parallax.js"></script>
 </body>
 
 </html>
