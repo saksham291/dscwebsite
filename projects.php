@@ -13,7 +13,7 @@
     <main>
       <div class="parallax-container">
         <!-- TODO: Replace with group photo -->
-        <div class="parallax"><img src="parallax2.jpg"></div>
+        <div class="parallax"><img src="img/parallax2.jpg"></div>
       </div>
 
         <div class="container" style="margin-bottom:8%;">

@@ -14,7 +14,7 @@
   <section id="top1" class="blue full-page">
     <div class="center" style="padding-top:4%;">
       <h4 class="white-text main-text"><small class="small-text">Indian Institute of Technology Bhilai</small><br>Developer Student Club<br>Powered by Google Developers</h4>
-      <img class="main-img" src="019-workspace.svg" alt="">
+      <img class="main-img" src="img/019-workspace.svg" alt="">
     </div>
   </section>
   <!-- events start -->
@@ -37,7 +37,7 @@
               <a class="btn-floating halfway-fab waves-effect waves-light red btn-large" target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&text=Inauguration - DSC IIT Bhilai&dates=20190422T063000Z%2F20190422T073000Z&location=Room 207&ctz=Asia/Kolkata"><i class="material-icons">event</i></a>
             </div>
             <div class="card-content">
-              <p>Inauguration of the Developer Students Club at Indian Institute of Technology Bhilai.</p>
+              <p>Inauguration of the Developer Students Club at Indian Institute of Technology Bhilai.<br><br></p>
             </div>
             <div class="card-action">
               <a href="event_inauguration.php">Know more</a>
