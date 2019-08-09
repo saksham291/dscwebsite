@@ -43,7 +43,6 @@
         <li><a href="events.php" class="grey-text text-darken-1">Events</a></li>
         <li><a href="projects.php" class="grey-text text-darken-1">Projects</a></li>
         <li><a href="aboutus.php" class="grey-text text-darken-1">About us</a></li>
-        <li><a href="contactus.php" class="grey-text text-darken-1">Contact us</a></li>
       </ul>
     </div>
   </nav>
@@ -55,5 +54,4 @@
 <li><a href="events.php" class="waves-effect">Events</a></li>
 <li><a href="projects.php" class="waves-effect">Projects</a></li>
 <li><a href="aboutus.php" class="waves-effect">About us</a></li>
-<li><a href="contactus.php" class="waves-effect">Contact us</a></li>
 </ul>
