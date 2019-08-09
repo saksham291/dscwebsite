@@ -67,13 +67,6 @@
 html {
   scroll-behavior: smooth;
 }
-  .wrapper {
-    min-height: 100%;
-
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: 0px;
-  }
 
   .footer {
     height: 100px;
