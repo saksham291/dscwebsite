@@ -33,7 +33,7 @@
   <nav>
     <div class="nav-wrapper white">
       <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only left"><i style="padding: 1% 4% 1% 1%;" class="material-icons">menu</i></a>
-      <a href="index.php" class="brand-logo grey-text text-darken-1 hide-on-med-and-down" style="margin-top:0.7%;margin-left:1%;font-family: 'Arvo', serif;line-height:113%; font-size:120%"> <img src="new_logo.png" height="35%" alt=""> <br><p style="margin:0% 0% 0% 19%;">IIT Bhilai</p></a>
+      <a href="index.php" class="brand-logo grey-text text-darken-1 hide-on-med-and-down" style="margin-top:0.7%;margin-left:1%;font-family: 'Arvo', serif;line-height:113%; font-size:120%"> <img src="img/new_logo.png" height="35%" alt=""> <br><p style="margin:0% 0% 0% 19%;">IIT Bhilai</p></a>
       <!-- responsive logo start-->
       <a href="index.php" class="brand-logo grey-text text-darken-1 hide-on-large-only" > <img src="img/new_logo.png" height="40%" style="margin-top:4.5%;margin-left:5%;" alt=""><span style="font-family: 'Arvo', serif;line-height:90%; font-size:38%;position:relative;margin-top:1%;margin-left:24%"><br>Indian Institute of Technology Bhilai</span></a>
       <!-- responsive logo end-->

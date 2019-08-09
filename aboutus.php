@@ -12,8 +12,7 @@
   <?php require 'header.php'; ?>
   <main>
     <div class="parallax-container">
-      <!-- TODO: Replace with group photo -->
-      <div class="parallax"><img src="parallax2.jpg"></div>
+      <div class="parallax"><img src="img/group_photo.jpg"></div>
     </div>
 
     <div class="container" style="width:90%;">
