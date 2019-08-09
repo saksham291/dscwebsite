@@ -13,7 +13,8 @@
   <?php require 'header.php'; ?>
   <section id="top1" class="blue full-page">
     <div class="center" style="padding-top:4%;">
-      <h4 class="white-text main-text"><small class="small-text">Indian Institute of Technology Bhilai</small><br>Developer Student Club<br>Powered by Google Developers</h4>
+      <h4 class="white-text main-text">
+      Developer Student Club<br>Powered by Google Developers</h4>
       <img class="main-img" src="img/019-workspace.svg" alt="">
     </div>
   </section>
