@@ -10,16 +10,40 @@
 
 .bg {
 	background: white;
-    max-height: calc(100vh - 56px);
+	max-height: calc(100vh - 56px);
 	transform-origin: 0 0;
-    transform: translateZ(-1px) scale(2);
+	transform: translateZ(-1px) scale(2);
 }
 .bg img {
-    display: block;
+	display: block;
 	width: 100%;
 	height: auto;
 }
 .cont {
-    position: relative;
+	padding-top: 30px;
+	position: relative;
 	background: white;
+}
+.dept {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+.member-img {
+    border-radius: 30px;
+    margin: auto;
+	margin-bottom: 20px;
+}
+.member-name {
+	font-size: 18px;
+	font-weight: 500;
+}
+.btn-flat {
+	text-transform: unset !important;
+}
+.btn-flat:hover {
+	text-transform: unset !important;
+}
+.card-panel {
+    margin: 25px auto !important;
 }

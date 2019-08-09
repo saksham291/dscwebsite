@@ -1,23 +1,43 @@
 .material-icons {
-  color: black;
+	color: black;
+}
+@media only screen and (min-width: 992px) {
+	.nav-wrapper {
+		padding-left: 10px;
+	}
+}
+.brand-logo > img {
+    display: block;
+    margin-top: 12px;
+	max-width: 120%;
 }
 
-button>.material-icons {
-  color: white;
+button > .material-icons {
+	color: white;
 }
 
 main {
-  flex: 1 0 auto;
+	flex: 1 0 auto;
 }
 
 .arvo {
-  font-family: 'Arvo', serif;
+	font-family: 'Arvo', serif;
 }
 
-.card {
-  border-radius: 10px !important;
+.card,
+.card-panel {
+	border-radius: 10px !important;
 }
 
 .card-action {
-  text-align: right;
+	text-align: right;
+}
+.btn,
+.btn-flat {
+	border-radius: 4px;
+}
+h1,
+h2,
+h3 {
+	font-weight: bold;
 }
