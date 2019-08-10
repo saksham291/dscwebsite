@@ -343,7 +343,7 @@
                 if (!isHovered(elems[0])) {
                     carousels[0].next();
                 }
-            }, 5000)
+            }, 5000);
         });
     </script>
     <!-- <script>
