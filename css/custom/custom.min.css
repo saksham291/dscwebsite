@@ -36,39 +36,11 @@ main {
   box-sizing: border-box;
   height: 100px;
 }
-.floater-icon {
-  width: 75px !important;
-  box-sizing: border-box;
-  margin: 5px;
-  fill: #2196f3;
-}
-
-.floater {
-  margin: 7px 1px !important;
-  box-sizing: border-box;
-  width: 120px !important;
-  height: 142px !important;
-  padding: 5px 10px !important;
-  text-align: center;
-}
-
-.floater-group {
-  /* border: 1px solid blue; */
-  padding: 0% 5% !important;
-}
 
 .container > .card {
   height: 50%;
 }
-@media only screen and (min-width: 720px) {
-  .floater {
-    box-sizing: border-box;
-    padding: 5px;
-    margin: 7px 6px !important;
-    height: 150px !important;
-  }
-  /* text-align: right; */
-}
+
 .btn,
 .btn-flat {
   border-radius: 4px;

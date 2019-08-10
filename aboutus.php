@@ -72,7 +72,7 @@
                     <h3 class="dept"> Competitive Programming</h3>
                     <div class="row center-align">
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/devansh.jpg">
                             <span class="member-name">Devansh Bajpai</span><br>
                             <a href="mailto:devanshb@iitbhilai.ac.in" class="btn-flat waves-effect"><i class="material-icons left">mail</i>devanshb@iitbhilai.ac.in</a>
                         </div>
@@ -137,7 +137,7 @@
                             <a href="mailto:aneesa@iitbhilai.ac.in" class="btn-flat waves-effect"><i class="material-icons left">mail</i>aneesa@iitbhilai.ac.in</a>
                         </div>
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/pintu.jpg">
                             <span class="member-name">Pintu Kumar</span><br>
                             <a href="mailto:pintuk@iitbhilai.ac.in" class="btn-flat waves-effect"><i class="material-icons left">mail</i>pintuk@iitbhilai.ac.in</a>
                         </div>
@@ -154,7 +154,7 @@
                             <a href="mailto:harshvardhanp@iitbhilai.ac.in" class="btn-flat waves-effect"><i class="material-icons left">mail</i>harshvardhanp@iitbhilai.ac.in</a>
                         </div>
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/neelmani.jpg">
                             <span class="member-name">Neelmani Gautam
                             </span><br>
                             <a href="mailto:neelmanig@iitbhilai.ac.in" class="btn-flat waves-effect"><i class="material-icons left">mail</i>neelmanig@iitbhilai.ac.in</a>
@@ -199,7 +199,7 @@
                     </div>
                     <div class="row center-align">
                         <div class="col s12 m4 offset-m2">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/shivam.jpg">
                             <span class="member-name">Kumar Shivam</span><br>
                             <a href="mailto:kumars@iitbhilai.ac.in" class="btn-flat waves-effect"><i class="material-icons left">mail</i>kumars@iitbhilai.ac.in</a>
                         </div>
@@ -236,7 +236,7 @@
                             <a href="mailto:pratikp@iitbhilai.ac.in" class="btn-flat waves-effect"><i class="material-icons left">mail</i>pratikp@iitbhilai.ac.in</a>
                         </div>
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/hrishikesh.jpg">
                             <span class="member-name">Hrishikesh Pradip Kaulwar
                             </span><br>
                             <a href="mailto:kaulwarh@iitbhilai.ac.in" class="btn-flat waves-effect"><i class="material-icons left">mail</i>kaulwarh@iitbhilai.ac.in</a>
