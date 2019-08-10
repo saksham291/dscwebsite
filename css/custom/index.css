@@ -8,9 +8,17 @@
 .floater {
 	/* margin: 7px 1px !important; */
 	box-sizing: border-box;
-	height: 150px !important;
-	padding: 5px 10px !important;
+	height: 160px !important;
+	padding: 20px 10px !important;
 	text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .floater {
+        height: 185px;
+    }
+}
+.floater-group>.row>.col {
+    padding: 0px 0.5rem !important;
 }
 
 /* @media only screen and (min-width: 720px) {
@@ -141,8 +149,16 @@ img {
 	transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
 
-	img {
+	/* img {
 		width: 100%;
 		height: auto;
-	}
+	} */
+}
+
+.carousel-item {
+	border-radius: 20px;
+}
+.carousel {
+    overflow: visible;
+    border-radius: 20px;
 }

@@ -58,6 +58,7 @@
                             <?php echo file_get_contents("img/chip.svg"); ?>
                             <br>
 
+
                             Artificial Intelligence
                         </div>
                     </div>
@@ -65,6 +66,7 @@
                         <div class="floater card floating-cards">
                             <?php echo file_get_contents("img/smartphone.svg"); ?>
                             <br>
+
 
                             <!-- <img src="img/smartphone.svg" alt="AI Chip" class='floater-icon'> -->
                             Mobile Applications
@@ -78,6 +80,7 @@
                             <?php echo file_get_contents("img/coding.svg"); ?>
                             <br>
 
+
                             Competitve Coding
                         </div>
                     </div>
@@ -87,6 +90,7 @@
                             <!-- <img src="img/computer.svg" alt="AI Chip" class='floater-icon'>Cloud Computing -->
                             <?php echo file_get_contents("img/computer.svg"); ?>
                             <br>
+
                             Cloud Computing
                         </div>
                     </div>
@@ -95,6 +99,7 @@
                             <!-- <img src="img/ui.svg" alt="AI Chip" class='floater-icon'> -->
                             <?php echo file_get_contents("img/ui.svg"); ?>
                             <br>
+
 
                             UI/UX Design
                         </div>
@@ -129,40 +134,41 @@
         </script> -->
         <div class="img-slides">
 
-
-            <div class="carousel carousel-slider center ">
-                <div class="carousel-fixed-item center">
-                    <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
-                </div>
-                <div class="carousel-item white-text" style='background-image:url("./img/IMG_8036-min.JPG");background-position: center; /* Center the image */
+            <div class="container" style="overflow: visible;">
+                <div class="carousel z-depth-3 carousel-slider center">
+                    <div class="carousel-fixed-item center">
+                        <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
+                    </div>
+                    <div class="carousel-item white-text" style='background-image:url("./img/IMG_8036-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  background-size: contain; /* Resize the background image to cover the entire container' href="#one!">
-                    <h2>First Panel</h2>
-                    <p class="white-text">This is your first panel</p>
-                </div>
-                <div class="carousel-item white-text" style='background-image:url("./img/IMG_7838-min.JPG");background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container' href="#one!">
+                        <h2>First Panel</h2>
+                        <p class="white-text">This is your first panel</p>
+                    </div>
+                    <div class="carousel-item white-text" style='background-image:url("./img/IMG_7838-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  background-size: contain; /* Resize the background image to cover the entire container' href="#two!">
-                    <h2>Second Panel</h2>
-                    <p class="white-text">This is your second panel</p>
-                </div>
-                <div class="carousel-item  white-text" style='background-image:url("./img/IMG_0363-min.JPG");background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container' href="#two!">
+                        <h2>Second Panel</h2>
+                        <p class="white-text">This is your second panel</p>
+                    </div>
+                    <div class="carousel-item  white-text" style='background-image:url("./img/IMG_0363-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  background-size: contain; /* Resize the background image to cover the entire container' href="#three!">
-                    <h2>Third Panel</h2>
-                    <p class="white-text">This is your third panel</p>
-                </div>
-                <div class="carousel-item white-text" style='background-image:url("./img/IMG_7861-min.JPG");background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container' href="#three!">
+                        <h2>Third Panel</h2>
+                        <p class="white-text">This is your third panel</p>
+                    </div>
+                    <div class="carousel-item white-text" style='background-image:url("./img/IMG_7861-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  background-size: contain; /* Resize the background image to cover the entire container' href="#four!">
-                    <h2>Fourth Panel</h2>
-                    <p class="white-text">This is your fourth panel</p>
-                </div>
-                <div class="carousel-item white-text" style='background-image:url("./img/IMG_0326-min.JPG");background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container' href="#four!">
+                        <h2>Fourth Panel</h2>
+                        <p class="white-text">This is your fourth panel</p>
+                    </div>
+                    <div class="carousel-item white-text" style='background-image:url("./img/IMG_0326-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  background-size: contain; /* Resize the background image to cover the entire container' href="#fifth!">
-                    <h2>Fifth Panel</h2>
-                    <p class="white-text">This is your fourth panel</p>
+  background-size: cover; /* Resize the background image to cover the entire container' href="#fifth!">
+                        <h2>Fifth Panel</h2>
+                        <p class="white-text">This is your fourth panel</p>
+                    </div>
                 </div>
             </div>
         </div>
