@@ -46,7 +46,6 @@ main {
 .floater {
   margin: 7px 1px !important;
   box-sizing: border-box;
-
   width: 120px !important;
   height: 142px !important;
   padding: 5px 10px !important;
@@ -55,7 +54,7 @@ main {
 
 .floater-group {
   /* border: 1px solid blue; */
-  padding-left: 5% !important;
+  padding: 0% 5% !important;
 }
 
 .container > .card {
