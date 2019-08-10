@@ -61,9 +61,12 @@ main {
 .container > .card {
   height: 50%;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 720px) {
   .floater {
+    box-sizing: border-box;
+    padding: 5px;
     margin: 7px 6px !important;
+    height: 150px !important;
   }
   /* text-align: right; */
 }
