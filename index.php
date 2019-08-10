@@ -114,7 +114,7 @@
             <!-- <p class='white-text'>Google collaborates with university students who are passionate about growing
                 developer communities and support them with starting student clubs on their campuses.
             </p> -->
-            <img class="main-img" src="img/019-workspace.svg" alt="" style="max-height: 50vh; margin: 15px auto;">
+            <img class="main-img" src="img/019-workspace.svg" alt="" style="max-height: 50vh; margin: 15px 20px;">
 
         </div>
     </section>
@@ -188,7 +188,7 @@
     <!-- events start -->
     <section class="bg-white ">
         <!-- <div class="col s12 container" style="width:90%"> -->
-        <div class="row">
+        <div class="row container">
             <div class="col s6 m6">
                 <p class="subtopic" style="">Events </p>
             </div>
