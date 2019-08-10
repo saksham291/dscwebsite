@@ -143,7 +143,10 @@
     <?php require 'header.php'; ?>
     <section id="top1" class="blue full-page">
         <div class="center" style="padding-top:4%; max-height: 100vh;">
-            <h4 class="white-text main-text"><br>Developer Student Club<br>Powered by Google Developers</h4>
+            <h4 class="white-text main-text">
+                <!-- "Hello World!!" We are<br> -->
+                Developer Student Club<br>Powered by Google
+                Developers</h4>
             <!-- <p class='white-text'>Google collaborates with university students who are passionate about growing
                 developer communities and support them with starting student clubs on their campuses.
             </p> -->
