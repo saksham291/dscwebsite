@@ -1,49 +1,48 @@
-.full-page{
+.full-page {
   height: 100vh;
 }
 
-.main-text{
+.main-text {
   font-size: 1.8em;
-  font-family: 'Arvo', serif;
-  margin-top:1%;
-  margin-bottom:4%;
+  font-family: "Arvo", serif;
+  margin-top: 1%;
+  margin-bottom: 4%;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-
-.small-text{
+.small-text {
   font-size: 45%;
   letter-spacing: 2px;
 }
 
-.main-img{
-  height:50%;
+.main-img {
+  height: 50%;
 }
 
-.subtopic{
-  font-family: 'Arvo', serif;
-  font-size:20px;
-  margin-top:6%;
-  margin-bottom:0%;
+.subtopic {
+  font-family: "Arvo", serif;
+  font-size: 20px;
+  margin-top: 6%;
+  margin-bottom: 0%;
   text-transform: uppercase;
-  color:grey;
+  color: grey;
 }
 
-.bg-white{
-  background-color:#ffffff;
+.bg-white {
+  background-color: #ffffff;
 }
-.bg-grey{
-  background-color:#f7f7f7;
+.bg-grey {
+  background-color: #f7f7f7;
 }
 @media only screen and (max-width: 600px) {
-  .main-img{
-    height:40%;
+  .main-img {
+    height: 40%;
   }
-  .main-text{
+  .main-text {
     font-size: 1.5em;
-    margin-top:15%;
-    margin-bottom:25%;
+    margin-top: 15%;
+    margin-bottom: 25%;
     text-transform: uppercase;
   }
 }
