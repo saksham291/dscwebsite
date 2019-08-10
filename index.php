@@ -1,7 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>
         Developer Student Club - IIT Bhilai
     </title>
@@ -108,10 +111,10 @@
     <section id="top1" class="blue full-page">
         <div class="center container" style="padding-top:4%;">
             <h4 class="white-text main-text"><br>Developer Student Club<br>Powered by Google Developers</h4>
-            <p class='white-text'>Google collaborates with university students who are passionate about growing
+            <!-- <p class='white-text'>Google collaborates with university students who are passionate about growing
                 developer communities and support them with starting student clubs on their campuses.
-            </p>
-            <img class="main-img" src="img/019-workspace.svg" alt="">
+            </p> -->
+            <img class="main-img" src="img/019-workspace.svg" alt="" style="max-height: 50vh; margin: 15px;">
 
         </div>
     </section>
@@ -264,7 +267,7 @@
 
 
 
-        <div class="row">
+        <div class="row container" style="width:90%;">
 
 
 

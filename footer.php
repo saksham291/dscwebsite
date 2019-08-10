@@ -23,58 +23,24 @@
 
 
 </footer>
+<!-- Scripts -->
 
-
-
-
-
-<!-- ================================================
-  Scripts
-  ================================================ -->
-
-
-<!--angularjs-->
-<!-- <script type="text/javascript" src="js/plugins/angular.min.js"></script> -->
-<!--materialize js-->
-<!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
-<!--angular-materialize js-->
-<!-- <script type="text/javascript" src="js/plugins/angular-materialize.js"></script> -->
 <!--prism -->
-<script type="text/javascript" src="js/plugins/prism/prism.js"></script>
+<!-- <script type="text/javascript" src="js/plugins/prism/prism.js"></script> -->
 <!--scrollbar-->
-<script type="text/javascript" src="js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-<!-- chartist -->
-<!-- <script type="text/javascript" src="js/plugins/chartist-js/chartist.min.js"></script> -->
+<!-- <script type="text/javascript" src="js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script> -->
 
 <!--plugins.js - Some Specific JS codes for Plugin Settings-->
-<script type="text/javascript" src="js/plugins.min.js"></script>
+<!-- <script type="text/javascript" src="js/plugins.min.js"></script> -->
 
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <!--custom-script.js - Add your own theme custom JS-->
 <script type="text/javascript" src="js/custom-script.js"></script>
 
-
-
-
-
 <style>
-/* html {
-  background: url(background.png) no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-} */
 html {
     scroll-behavior: smooth;
-}
-
-.wrapper {
-    min-height: 100%;
-
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: 0px;
 }
 
 .footer {

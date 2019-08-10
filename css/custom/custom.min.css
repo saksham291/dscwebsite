@@ -1,6 +1,16 @@
 .material-icons {
   color: black;
 }
+@media only screen and (min-width: 992px) {
+  .nav-wrapper {
+    padding-left: 10px;
+  }
+}
+.brand-logo > img {
+  display: block;
+  margin-top: 12px;
+  max-width: 120%;
+}
 
 button > .material-icons {
   color: white;
@@ -14,7 +24,8 @@ main {
   font-family: "Arvo", serif;
 }
 
-.card {
+.card,
+.card-panel {
   border-radius: 10px !important;
 }
 
@@ -54,4 +65,14 @@ main {
   .floater {
     margin: 7px 6px !important;
   }
+  /* text-align: right; */
+}
+.btn,
+.btn-flat {
+  border-radius: 4px;
+}
+h1,
+h2,
+h3 {
+  font-weight: bold;
 }
