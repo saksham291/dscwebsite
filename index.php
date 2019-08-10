@@ -343,7 +343,7 @@
                                 Programme
                                 - DSC IIT Bhilai</span>
                             <a class="btn-floating halfway-fab waves-effect waves-light red btn-large" target="_blank"
-                                href="https://calendar.google.com/event?action=TEMPLATE&text=Inauguration - DSC IIT Bhilai&dates=20190422T063000Z%2F20190422T073000Z&location=Room 207&ctz=Asia/Kolkata"><i
+                                href="https://calendar.google.com/event?action=TEMPLATE&text=Inauguration - DSC IIT Bhilai&dates=20190422T063000Z%2F20190422T073000Z&location=Room 207&ctz=Asia/Kolkata" rel="noreferrer"><i
                                     class="material-icons">event</i></a>
                         </div>
                         <div class="card-content">
