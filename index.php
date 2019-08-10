@@ -329,37 +329,46 @@
   </section> -->
     <!-- projects end -->
     <script>
+        function isHovered(e) {
+            return e === e.parentElement.querySelector(':hover');
+        }
         document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.carousel');
-            var instances = M.Carousel.init(elems, {
+            let elems = document.querySelectorAll('.carousel');
+            carousels = M.Carousel.init(elems, {
                 fullWidth: true,
                 indicators: true
             });
+            window.setInterval(() => {
+                // next slide when cursor is not hovering over
+                if (!isHovered(elems[0])) {
+                    carousels[0].next();
+                }
+            }, 5000)
         });
     </script>
-    <script>
-        // var slideIndex = 0;
-        // showSlides();
+    <!-- <script>
+        var slideIndex = 0;
+        showSlides();
 
-        // function showSlides() {
-        //     var i;
-        //     var slides = document.getElementsByClassName("mySlides");
-        //     var dots = document.getElementsByClassName("dot");
-        //     for (i = 0; i < slides.length; i++) {
-        //         slides[i].style.display = "none";
-        //     }
-        //     slideIndex++;
-        //     if (slideIndex > slides.length) {
-        //         slideIndex = 1
-        //     }
-        //     for (i = 0; i < dots.length; i++) {
-        //         dots[i].className = dots[i].className.replace(" active-slide", "");
-        //     }
-        //     slides[slideIndex - 1].style.display = "block";
-        //     dots[slideIndex - 1].className += " active-slide";
-        //     setTimeout(showSlides, 5 * 1000); // Change image every 2 seconds
-        // }
-    </script>
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active-slide", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active-slide";
+            setTimeout(showSlides, 5 * 1000); // Change image every 2 seconds
+        }
+    </script> -->
 
 </body>
 <?php require 'footer.php'; ?>
