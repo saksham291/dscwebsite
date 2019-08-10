@@ -109,12 +109,12 @@
     <section id="top"></section>
     <?php require 'header.php'; ?>
     <section id="top1" class="blue full-page">
-        <div class="center container" style="padding-top:4%;">
+        <div class="center" style="padding-top:4%; max-height: 100vh;">
             <h4 class="white-text main-text"><br>Developer Student Club<br>Powered by Google Developers</h4>
             <!-- <p class='white-text'>Google collaborates with university students who are passionate about growing
                 developer communities and support them with starting student clubs on their campuses.
             </p> -->
-            <img class="main-img" src="img/019-workspace.svg" alt="" style="max-height: 50vh; margin: 15px;">
+            <img class="main-img" src="img/019-workspace.svg" alt="" style="max-height: 50vh; margin: 15px auto;">
 
         </div>
     </section>

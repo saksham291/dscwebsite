@@ -1,4 +1,4 @@
-<footer class="page-footer" style="padding-bottom:0.5%;margin-top:1%;">
+<footer class="page-footer blue" style="padding-bottom:0.5%;margin-top:1%;">
 
     <div class="row" style="margin-left:4%">
         <div class="col l6 s12">
