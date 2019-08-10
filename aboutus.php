@@ -165,7 +165,7 @@
                     <h3 class="dept"> Event Management</h3>
                     <div class="row center-align">
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/akashsingh.jpg">
                             <span class="member-name">Akash Singh</span><br>
                             <a href="mailto:akashs@iitbhilai.ac.in" class="btn-flat waves-effect"><i class="material-icons left">mail</i>akashs@iitbhilai.ac.in</a>
                         </div>
@@ -215,7 +215,7 @@
                     <h3 class="dept"> Event Coverage (Photography)</h3>
                     <div class="row center-align">
                         <div class="col s12 m4 offset-m2">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/amit.jpg">
                             <span class="member-name">Amit Kumar</span><br>
                             <a href="mailto:amitk@iitbhilai.ac.in" class="btn-flat waves-effect"><i class="material-icons left">mail</i>amitk@iitbhilai.ac.in</a>
                         </div>
