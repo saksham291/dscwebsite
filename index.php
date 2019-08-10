@@ -190,7 +190,7 @@
         <!-- <div class="col s12 container" style="width:90%"> -->
         <div class="row container">
             <div class="col s6 m6">
-                <p class="subtopic" style="">Events </p>
+                <p class="subtopic">Events </p>
             </div>
             <div class="col s6 m6">
                 <p class="right" style="margin-top:6%;"><a href="events.php" class="grey-text text-darken-1">All
