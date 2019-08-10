@@ -25,7 +25,8 @@ main {
 }
 
 .card,
-.card-panel {
+.card-panel,
+.card-image {
   border-radius: 10px !important;
 }
 
