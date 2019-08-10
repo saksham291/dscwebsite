@@ -1,3 +1,11 @@
+<div class="preloader">
+    <div class="loading">
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+    </div>
+</div>
 <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
 <!-- <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection"> -->
 <!-- <link href="js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection"> -->
@@ -28,8 +36,7 @@
 <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper white">
-            <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only left"><i
-                    class="material-icons">menu</i></a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only left"><i class="material-icons">menu</i></a>
 
             <a href="index.php" class="brand-logo">
                 <img src="img/logo_small.png" alt="">

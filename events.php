@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -40,7 +40,7 @@
 					<div class="card-image">
 						<img src="background.png">
 						<span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Inauguration Programme - DSC IIT Bhilai</span>
-						<a class="btn-floating halfway-fab waves-effect waves-light red btn-large" target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&text=Inauguration - DSC IIT Bhilai&dates=20190422T063000Z%2F20190422T073000Z&location=Room 207&ctz=Asia/Kolkata"><i class="material-icons">event</i></a>
+						<a class="btn-floating halfway-fab waves-effect waves-light red btn-large" target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&text=Inauguration - DSC IIT Bhilai&dates=20190422T063000Z%2F20190422T073000Z&location=Room 207&ctz=Asia/Kolkata" rel="noreferrer"><i class="material-icons">event</i></a>
 					</div>
 					<div class="card-content">
 						<p>Inauguration of the Developer Students Club at Indian Institute of Technology Bhilai.</p>
