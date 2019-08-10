@@ -6,6 +6,63 @@
         <div class="loading-bar"></div>
     </div>
 </div>
+<style>
+    .preloader {
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 9999;
+    }
+
+    .loading {
+        position: absolute;
+        bottom: 50%;
+        left: calc(50% - 21px);
+    }
+
+    .loading-bar {
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        border-radius: 4px;
+        animation: loading 1s ease-in-out infinite;
+    }
+
+    .loading-bar:nth-child(1) {
+        background-color: #3498db;
+        animation-delay: 0;
+    }
+
+    .loading-bar:nth-child(2) {
+        background-color: #c0392b;
+        animation-delay: 0.1s;
+    }
+
+    .loading-bar:nth-child(3) {
+        background-color: #f1c40f;
+        animation-delay: 0.2s;
+    }
+
+    .loading-bar:nth-child(4) {
+        background-color: #27ae60;
+        animation-delay: 0.3s;
+    }
+
+    @keyframes loading {
+        0% {
+            height: 7px;
+        }
+
+        20% {
+            height: 32px;
+        }
+
+        40% {
+            height: 7px;
+        }
+    }
+</style>
 <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
 <!-- <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection"> -->
 <!-- <link href="js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection"> -->
