@@ -9,133 +9,7 @@
         Developer Student Club - IIT Bhilai
     </title>
     <link rel="stylesheet" type="text/css" href="css/custom_style.css">
-    <style>
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        font-family: Verdana, sans-serif;
-    }
-
-    .mySlides {
-        display: none;
-    }
-
-    img {
-        vertical-align: middle;
-    }
-
-    /* Slideshow container */
-    .slideshow-container {
-        max-width: 1000px;
-        position: relative;
-        margin: auto;
-    }
-
-    /* Caption text */
-    .text {
-        color: #f2f2f2;
-        font-size: 15px;
-        padding: 8px 12px;
-        position: absolute;
-        bottom: 8px;
-        width: 100%;
-        text-align: center;
-    }
-
-    /* Number text (1/3 etc) */
-    .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-    }
-
-    /* The dots/bullets/indicators */
-    .dot {
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-    }
-
-    .active-slide {
-        background-color: #717171;
-    }
-
-    /* Fading animation */
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade {
-        from {
-            opacity: .4
-        }
-
-        to {
-            opacity: 1
-        }
-    }
-
-    @keyframes fade {
-        from {
-            opacity: .4
-        }
-
-        to {
-            opacity: 1
-        }
-    }
-
-    /* On smaller screens, decrease text size */
-    @media only screen and (max-width: 300px) {
-        .text {
-            font-size: 11px
-        }
-    }
-    </style>
-    <style>
-    @keyframes float {
-        0% {
-            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-            transform: translatey(0px);
-        }
-
-        50% {
-            box-shadow: 0 15px 20px 0px rgba(0, 0, 0, 0.2);
-            transform: translatey(-20px);
-        }
-
-        100% {
-            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-            transform: translatey(0px);
-        }
-    }
-
-    .floating-cards {
-        box-sizing: border-box;
-        /* border: 5px white solid; */
-        /* border-radius: 50%; */
-        overflow: hidden;
-        /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
-        transform: translatey(0px);
-        animation: float 6s ease-in-out infinite;
-
-        img {
-            width: 100%;
-            height: auto;
-        }
-    }
-    </style>
+    <link rel="stylesheet" href="css/custom/index.css">
 </head>
 
 <body>
@@ -162,53 +36,68 @@
 
 
         <div class="row container" style="width:90%;line-height:1.7em">
-            <div class="col s12 m9 l5">
+            <div class="col s12 l6">
                 <p>A Developer Students Club is a Google recognized student body at a college which directly reports
                     to Google for their activities and is supported by the tech giant. A DSC conducts workshops,
                     seminars and other fun activities which help the students connect with Google.</p>
             </div>
-            <div class="col s12 m4 l6 floater-group">
+            <div class="col s12 l6 floater-group">
 
                 <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
                 <div class="row">
-                    <div class="floater card col s12 m6 l4 hoverable  floating-cards">
-
-                        <?php echo file_get_contents("img/web-programming.svg"); ?>
-
-                        <!-- <img src="img/web-programming.svg" alt="AI Chip" class='floater-icon'> -->
-                        Web Development
+                    <div class="col s4">
+                        <div class="floater card floating-cards center-align">
+                            <?php echo file_get_contents("img/web-programming.svg"); ?>
+                            <br>
+                            Web Development
+                        </div>
                     </div>
-                    <div class="floater card col s12 m6 l4 hoverable  floating-cards">
-                        <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
-                        <?php echo file_get_contents("img/chip.svg"); ?>
+                    <div class="col s4">
+                        <div class="floater card floating-cards">
+                            <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
+                            <?php echo file_get_contents("img/chip.svg"); ?>
+                            <br>
 
-                        Artificial Intelligence
+                            Artificial Intelligence
+                        </div>
                     </div>
-                    <div class="floater card col s12 m6 l4 hoverable  floating-cards">
-                        <?php echo file_get_contents("img/smartphone.svg"); ?>
+                    <div class="col s4">
+                        <div class="floater card floating-cards">
+                            <?php echo file_get_contents("img/smartphone.svg"); ?>
+                            <br>
 
-                        <!-- <img src="img/smartphone.svg" alt="AI Chip" class='floater-icon'> -->
-                        Mobile Applications
+                            <!-- <img src="img/smartphone.svg" alt="AI Chip" class='floater-icon'> -->
+                            Mobile Applications
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="floater card col s12 m6 l4 hoverable  floating-cards">
-                        <!-- <img src="img/coding.svg" alt="AI Chip" class='floater-icon'> -->
-                        <?php echo file_get_contents("img/coding.svg"); ?>
+                    <div class="col s4">
+                        <div class="floater card floating-cards">
+                            <!-- <img src="img/coding.svg" alt="AI Chip" class='floater-icon'> -->
+                            <?php echo file_get_contents("img/coding.svg"); ?>
+                            <br>
 
-                        Competitve Coding
+                            Competitve Coding
+                        </div>
                     </div>
-                    <div class="floater card col s8 m6 l4 hoverable  floating-cards">
+                    <div class="col s4">
+                        <div class="floater card floating-cards">
 
-                        <!-- <img src="img/computer.svg" alt="AI Chip" class='floater-icon'>Cloud Computing -->
-                        <?php echo file_get_contents("img/computer.svg"); ?>
-                        Cloud Computing
+                            <!-- <img src="img/computer.svg" alt="AI Chip" class='floater-icon'>Cloud Computing -->
+                            <?php echo file_get_contents("img/computer.svg"); ?>
+                            <br>
+                            Cloud Computing
+                        </div>
                     </div>
-                    <div class="floater card col s12 m6 l4 hoverable  floating-cards">
-                        <!-- <img src="img/ui.svg" alt="AI Chip" class='floater-icon'> -->
-                        <?php echo file_get_contents("img/ui.svg"); ?>
+                    <div class="col s4">
+                        <div class="floater card floating-cards">
+                            <!-- <img src="img/ui.svg" alt="AI Chip" class='floater-icon'> -->
+                            <?php echo file_get_contents("img/ui.svg"); ?>
+                            <br>
 
-                        UI/UX Design
+                            UI/UX Design
+                        </div>
 
                     </div>
                 </div>
@@ -288,8 +177,7 @@
                             <span class="card-title"><small>17<sup>th</sup> Aug 2019</small><br>Google Cloud Study
                                 Jam
                             </span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
-                                    class="material-icons">event</i></a>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
                         </div>
                         <div class="card-content">
                             <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
@@ -309,8 +197,7 @@
                             <span class="card-title"><small>28<sup>th</sup> July 2019</small><br>Introduction to
                                 progrmaming basics for Freshers
                             </span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
-                                    class="material-icons">event</i></a>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
                         </div>
                         <div class="card-content">
                             <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
@@ -330,8 +217,7 @@
                             <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Gentle
                                 introduction to Machine Learning through Python
                             </span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
-                                    class="material-icons">event</i></a>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
                         </div>
                         <div class="card-content">
                             <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
@@ -437,36 +323,36 @@
   </section> -->
     <!-- projects end -->
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.carousel');
-        var instances = M.Carousel.init(elems, {
-            fullWidth: true,
-            indicators: true
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems, {
+                fullWidth: true,
+                indicators: true
+            });
         });
-    });
     </script>
     <script>
-    // var slideIndex = 0;
-    // showSlides();
+        // var slideIndex = 0;
+        // showSlides();
 
-    // function showSlides() {
-    //     var i;
-    //     var slides = document.getElementsByClassName("mySlides");
-    //     var dots = document.getElementsByClassName("dot");
-    //     for (i = 0; i < slides.length; i++) {
-    //         slides[i].style.display = "none";
-    //     }
-    //     slideIndex++;
-    //     if (slideIndex > slides.length) {
-    //         slideIndex = 1
-    //     }
-    //     for (i = 0; i < dots.length; i++) {
-    //         dots[i].className = dots[i].className.replace(" active-slide", "");
-    //     }
-    //     slides[slideIndex - 1].style.display = "block";
-    //     dots[slideIndex - 1].className += " active-slide";
-    //     setTimeout(showSlides, 5 * 1000); // Change image every 2 seconds
-    // }
+        // function showSlides() {
+        //     var i;
+        //     var slides = document.getElementsByClassName("mySlides");
+        //     var dots = document.getElementsByClassName("dot");
+        //     for (i = 0; i < slides.length; i++) {
+        //         slides[i].style.display = "none";
+        //     }
+        //     slideIndex++;
+        //     if (slideIndex > slides.length) {
+        //         slideIndex = 1
+        //     }
+        //     for (i = 0; i < dots.length; i++) {
+        //         dots[i].className = dots[i].className.replace(" active-slide", "");
+        //     }
+        //     slides[slideIndex - 1].style.display = "block";
+        //     dots[slideIndex - 1].className += " active-slide";
+        //     setTimeout(showSlides, 5 * 1000); // Change image every 2 seconds
+        // }
     </script>
 
 </body>

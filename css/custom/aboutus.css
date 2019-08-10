@@ -39,7 +39,9 @@
 	font-weight: 500;
 }
 .btn-flat {
-	text-transform: unset !important;
+    text-transform: unset !important;
+    overflow-wrap: break-word;
+    overflow: visible;
 }
 .btn-flat:hover {
 	text-transform: unset !important;
