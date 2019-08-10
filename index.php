@@ -103,6 +103,39 @@
         }
     }
     </style>
+    <style>
+    @keyframes float {
+        0% {
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            transform: translatey(0px);
+        }
+
+        50% {
+            box-shadow: 0 15px 20px 0px rgba(0, 0, 0, 0.2);
+            transform: translatey(-20px);
+        }
+
+        100% {
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            transform: translatey(0px);
+        }
+    }
+
+    .floating-cards {
+        box-sizing: border-box;
+        /* border: 5px white solid; */
+        /* border-radius: 50%; */
+        overflow: hidden;
+        /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    </style>
 </head>
 
 <body>
@@ -119,69 +152,70 @@
         </div>
     </section>
     <section class="whyDSC bg-grey">
-        <div class="col s12 container" style="width:90%;">
-            <div class="row">
-                <div class="col s6 m6">
-                    <p class="subtopic">What is DSC ?</p>
-                </div>
+
+        <div class="row container">
+            <div class="col s6 m6">
+                <p class="subtopic" style="">Why DSC? </p>
             </div>
 
-
-            <div class="row">
-                <div class="col s12 m6 l5">
-                    <p>A Developer Students Club is a Google recognized student body at a college which directly reports
-                        to Google for their activities and is supported by the tech giant. A DSC conducts workshops,
-                        seminars and other fun activities which help the students connect with Google.</p>
-                </div>
-                <div class="col s12 m4 l6 floater-group offset-l1">
-
-                    <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
-                    <div class="row">
-                        <div class="floater card col s12 m6 l4 hoverable">
-
-                            <?php echo file_get_contents("img/web-programming.svg"); ?>
-
-                            <!-- <img src="img/web-programming.svg" alt="AI Chip" class='floater-icon'> -->
-                            Web Development
-                        </div>
-                        <div class="floater card col s12 m6 l4 hoverable">
-                            <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
-                            <?php echo file_get_contents("img/chip.svg"); ?>
-
-                            Artificial Intelligence
-                        </div>
-                        <div class="floater card col s12 m6 l4 hoverable">
-                            <?php echo file_get_contents("img/smartphone.svg"); ?>
-
-                            <!-- <img src="img/smartphone.svg" alt="AI Chip" class='floater-icon'> -->
-                            Mobile Applications
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="floater card col s12 m6 l4 hoverable">
-                            <!-- <img src="img/coding.svg" alt="AI Chip" class='floater-icon'> -->
-                            <?php echo file_get_contents("img/coding.svg"); ?>
-
-                            Competitve Coding
-                        </div>
-                        <div class="floater card col s8 m6 l4 hoverable">
-
-                            <!-- <img src="img/computer.svg" alt="AI Chip" class='floater-icon'>Cloud Computing -->
-                            <?php echo file_get_contents("img/computer.svg"); ?>
-                            Cloud Computing
-                        </div>
-                        <div class="floater card col s12 m6 l4 hoverable">
-                            <!-- <img src="img/ui.svg" alt="AI Chip" class='floater-icon'> -->
-                            <?php echo file_get_contents("img/ui.svg"); ?>
-
-                            UI/UX Design
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </div>
+
+
+        <div class="row container" style="width:90%;line-height:1.7em">
+            <div class="col s12 m9 l5">
+                <p>A Developer Students Club is a Google recognized student body at a college which directly reports
+                    to Google for their activities and is supported by the tech giant. A DSC conducts workshops,
+                    seminars and other fun activities which help the students connect with Google.</p>
+            </div>
+            <div class="col s12 m4 l6 floater-group">
+
+                <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
+                <div class="row">
+                    <div class="floater card col s12 m6 l4 hoverable  floating-cards">
+
+                        <?php echo file_get_contents("img/web-programming.svg"); ?>
+
+                        <!-- <img src="img/web-programming.svg" alt="AI Chip" class='floater-icon'> -->
+                        Web Development
+                    </div>
+                    <div class="floater card col s12 m6 l4 hoverable  floating-cards">
+                        <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
+                        <?php echo file_get_contents("img/chip.svg"); ?>
+
+                        Artificial Intelligence
+                    </div>
+                    <div class="floater card col s12 m6 l4 hoverable  floating-cards">
+                        <?php echo file_get_contents("img/smartphone.svg"); ?>
+
+                        <!-- <img src="img/smartphone.svg" alt="AI Chip" class='floater-icon'> -->
+                        Mobile Applications
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="floater card col s12 m6 l4 hoverable  floating-cards">
+                        <!-- <img src="img/coding.svg" alt="AI Chip" class='floater-icon'> -->
+                        <?php echo file_get_contents("img/coding.svg"); ?>
+
+                        Competitve Coding
+                    </div>
+                    <div class="floater card col s8 m6 l4 hoverable  floating-cards">
+
+                        <!-- <img src="img/computer.svg" alt="AI Chip" class='floater-icon'>Cloud Computing -->
+                        <?php echo file_get_contents("img/computer.svg"); ?>
+                        Cloud Computing
+                    </div>
+                    <div class="floater card col s12 m6 l4 hoverable  floating-cards">
+                        <!-- <img src="img/ui.svg" alt="AI Chip" class='floater-icon'> -->
+                        <?php echo file_get_contents("img/ui.svg"); ?>
+
+                        UI/UX Design
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
 
         <!-- <p class="subtopic">What is DSC ?</p> -->
     </section>
@@ -204,75 +238,50 @@
             indicators: true
         });
         </script> -->
+        <div class="img-slides">
 
 
-        <div class="slideshow-container">
-
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
-                <div class="text">Caption Text</div>
+            <div class="carousel carousel-slider center ">
+                <div class="carousel-fixed-item center">
+                    <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
+                </div>
+                <div class="carousel-item white-text" style='background-image:url("./img/IMG_8036-min.JPG");background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: contain; /* Resize the background image to cover the entire container' href="#one!">
+                    <h2>First Panel</h2>
+                    <p class="white-text">This is your first panel</p>
+                </div>
+                <div class="carousel-item white-text" style='background-image:url("./img/IMG_7838-min.JPG");background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: contain; /* Resize the background image to cover the entire container' href="#two!">
+                    <h2>Second Panel</h2>
+                    <p class="white-text">This is your second panel</p>
+                </div>
+                <div class="carousel-item  white-text" style='background-image:url("./img/IMG_0363-min.JPG");background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: contain; /* Resize the background image to cover the entire container' href="#three!">
+                    <h2>Third Panel</h2>
+                    <p class="white-text">This is your third panel</p>
+                </div>
+                <div class="carousel-item white-text" style='background-image:url("./img/IMG_7861-min.JPG");background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: contain; /* Resize the background image to cover the entire container' href="#four!">
+                    <h2>Fourth Panel</h2>
+                    <p class="white-text">This is your fourth panel</p>
+                </div>
+                <div class="carousel-item white-text" style='background-image:url("./img/IMG_0326-min.JPG");background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: contain; /* Resize the background image to cover the entire container' href="#fifth!">
+                    <h2>Fifth Panel</h2>
+                    <p class="white-text">This is your fourth panel</p>
+                </div>
             </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
-                <div class="text">Caption Two</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
-                <div class="text">Caption Three</div>
-            </div>
-
         </div>
-        <br>
-
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
 
 
-        <!-- <div class="carousel carousel-slider center">
-            <div class="carousel-fixed-item center">
-                <a class="btn waves-effect white grey-text darken-text-2">button</a>
-            </div>
-            <div class="carousel-item red white-text" href="#one!">
-
-            </div>
-            <div class="carousel-item amber white-text" href="#two!">
-                <h2>Second Panel</h2>
-                <p class="white-text">This is your second panel</p>
-            </div>
-            <div class="carousel-item green white-text" href="#three!">
-                <h2>Third Panel</h2>
-                <p class="white-text">This is your third panel</p>
-            </div>
-            <div class="carousel-item blue white-text" href="#four!">
-                <h2>Fourth Panel</h2>
-                <p class="white-text">This is your fourth panel</p>
-            </div>
-        </div> -->
-
-        <!-- <div class="carousel container">
-            <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
-            <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
-            <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
-            <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
-            <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
-        </div> -->
-
-
-
-        <div class="row container" style="width:90%;">
-
-
-
+        <div class="row container" style="width:90%;margin-top:50px !important;">
             <a href="event_CSJ.php">
-                <div class="col s12 m6 l4">
+                <div class="col s12 m6 l4 ">
                     <div class="card hoverable">
                         <div class="card-image">
                             <img src="background.png">
@@ -286,17 +295,17 @@
                             <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
                                 projects by students.</p>
                         </div>
-                        <!-- <div class="card-action">
-                                <a href="#">Know More</a>
-                            </div> -->
+                        <div class="card-action">
+                            <a href="event_CSJ">Know More</a>
+                        </div>
                     </div>
                 </div>
             </a>
             <a href="event_Basics.php">
-                <div class="col s12 m6 l4">
+                <div class="col s12 m6 l4 ">
                     <div class="card hoverable">
                         <div class="card-image">
-                            <img src="background.png">
+                            <img src="img/IMG_0495-min.JPG">
                             <span class="card-title"><small>28<sup>th</sup> July 2019</small><br>Introduction to
                                 progrmaming basics for Freshers
                             </span>
@@ -307,17 +316,17 @@
                             <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
                                 projects by students.</p>
                         </div>
-                        <!-- <div class="card-action">
-                                <a href="#">Know More</a>
-                            </div> -->
+                        <div class="card-action">
+                            <a href="event_Basics.php">Know More</a>
+                        </div>
                     </div>
                 </div>
             </a>
             <a href="event_ML_WS1.php">
-                <div class="col s12 m6 l4">
-                    <div class="card hoverable">
+                <div class="col s12 m6 l4 ">
+                    <div class="card hoverable ">
                         <div class="card-image">
-                            <img src="background.png">
+                            <img src="./img/ML_WS1-min.JPG">
                             <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Gentle
                                 introduction to Machine Learning through Python
                             </span>
@@ -328,13 +337,13 @@
                             <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
                                 projects by students.</p>
                         </div>
-                        <!-- <div class="card-action">
-                                <a href="#">Know More</a>
-                            </div> -->
+                        <div class="card-action">
+                            <a href="event_ML_WS1.php">Know More</a>
+                        </div>
                     </div>
                 </div>
             </a>
-            <a href="event_inauguration.php">
+            <!-- <a href="event_inauguration.php">
                 <div class="col s12 m6 l4">
                     <div class="card hoverable">
                         <div class="card-image">
@@ -353,7 +362,7 @@
 
                     </div>
                 </div>
-            </a>
+            </a> -->
 
 
         </div>
@@ -437,27 +446,27 @@
     });
     </script>
     <script>
-    var slideIndex = 0;
-    showSlides();
+    // var slideIndex = 0;
+    // showSlides();
 
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-            slideIndex = 1
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active-slide", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active-slide";
-        setTimeout(showSlides, 5 * 1000); // Change image every 2 seconds
-    }
+    // function showSlides() {
+    //     var i;
+    //     var slides = document.getElementsByClassName("mySlides");
+    //     var dots = document.getElementsByClassName("dot");
+    //     for (i = 0; i < slides.length; i++) {
+    //         slides[i].style.display = "none";
+    //     }
+    //     slideIndex++;
+    //     if (slideIndex > slides.length) {
+    //         slideIndex = 1
+    //     }
+    //     for (i = 0; i < dots.length; i++) {
+    //         dots[i].className = dots[i].className.replace(" active-slide", "");
+    //     }
+    //     slides[slideIndex - 1].style.display = "block";
+    //     dots[slideIndex - 1].className += " active-slide";
+    //     setTimeout(showSlides, 5 * 1000); // Change image every 2 seconds
+    // }
     </script>
 
 </body>
