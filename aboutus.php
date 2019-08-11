@@ -37,35 +37,7 @@
                     </ul>
                 </div> -->
 
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header">What is DSC ?</div>
-                        <div class="collapsible-body"><span>Developer Students’ Club is a Google Developers program for
-                                university students, designed to help them build their development skills in various
-                                domains. It is an officially recognized Students’ Club.</span></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header">What do we do?</div>
-                        <div class="collapsible-body"><span>Developer Students Club is a Google recognized student
-                                body at IIT Bhilai which directly reports to Google Developers for their activities and
-                                is
-                                supported by the tech giant. DSC-IIT Bh. conducts workshops, seminars and other fun
-                                activities which help the students connect with Google.
-                                And we give Google interview
-                                referrals too!</span></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header">How can i be a Member</div>
-                        <div class="collapsible-body"><span>Being a member is as easy as registering in our website and
-                                its completely free of
-                                cost.</span></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header">How can i be a Core Member</div>
-                        <div class="collapsible-body"><span>You have compete with others trying to get into the field
-                                and prove yourself.</span></div>
-                    </li>
-                </ul>
+
 
 
                 <p>The following are the core members of the Student Developer Club - IIT Bhilai</p>
@@ -309,12 +281,7 @@
         <?php require 'footer.php'; ?>
         <div style="height: 50px;"></div>
     </main>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.collapsible');
-        var instances = M.Collapsible.init(elems);
-    });
-    </script>
+
 </body>
 
 </html>

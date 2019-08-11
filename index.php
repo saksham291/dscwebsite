@@ -29,17 +29,9 @@
         </div>
     </section>
     <section class="whyDSC bg-grey">
-
-        <div class="row container">
-            <div class="col s6 m6">
-                <p class="subtopic" style="">Why DSC? </p>
-            </div>
-
-        </div>
-
-
-        <div class="row container" style="width:90%;line-height:1.7em">
+        <div class="row container" style="width:90%; padding-top: 30px;">
             <div class="col s12 l6">
+                <p class="subtopic" style="">Why DSC? </p>
                 <p>A Developer Students Club is a Google recognized student body at a college which directly reports
                     to Google for their activities and is supported by the tech giant. A DSC conducts workshops,
                     seminars and other fun activities which help the students connect with Google.</p>
@@ -117,9 +109,9 @@
         <!-- <p class="subtopic">What is DSC ?</p> -->
     </section>
     <!-- events start -->
-    <section class="bg-white ">
+    <section class="bg-white">
         <!-- <div class="col s12 container" style="width:90%"> -->
-        <div class="row container">
+        <div class="row container" style="width: 90%;">
             <div class="col s6 m6">
                 <p class="subtopic">Events </p>
             </div>
@@ -135,10 +127,10 @@
             indicators: true
         });
         </script> -->
-        <div class="img-slides">
+        <div>
 
-            <div class="container" style="overflow: visible;">
-                <div class="carousel z-depth-3 carousel-slider center">
+            <div class="container">
+                <div class="carousel carousel-slider center">
                     <div class="carousel-fixed-item center">
                         <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
                     </div>
@@ -191,77 +183,77 @@
             </div>
         </div>
 
-
-        <div class="row container" style="width:90%;margin-top:50px !important;">
-            <a href="event_CSJ.php">
-                <div class="col s12 m6 l4 ">
-                    <div class="card hoverable">
-                        <div class="card-image " style=''>
-                            <div class="img-crd" style='background:linear-gradient(
+        <div class="bg-grey" style='padding:20px;'>
+            <div class="row container" style="width:90%;margin-top:50px !important;">
+                <a href="event_CSJ.php">
+                    <div class="col s12 m6 l4 ">
+                        <div class="card hoverable">
+                            <div class="card-image " style=''>
+                                <div class="img-crd" style='background:linear-gradient(
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ),url("img/IMG_0495-min.JPG");'>
+                                </div>
+                                <!-- <img src="background.png"> -->
+                                <span class="card-title"><small>17<sup>th</sup> Aug 2019</small><br>Google Cloud Study
+                                    Jam
+                                </span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
+                                        class="material-icons">event</i></a>
                             </div>
-                            <!-- <img src="background.png"> -->
-                            <span class="card-title"><small>17<sup>th</sup> Aug 2019</small><br>Google Cloud Study
-                                Jam
-                            </span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
-                                    class="material-icons">event</i></a>
-                        </div>
-                        <div class="card-content">
-                            <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
-                                projects by students.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="event_CSJ">Know More</a>
+                            <div class="card-content">
+                                <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
+                                    projects by students.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="event_CSJ">Know More</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
-            <a href="event_Basics.php">
-                <div class="col s12 m6 l4 ">
-                    <div class="card hoverable">
-                        <div class="card-image">
-                            <img src="img/IMG_0495-min.JPG">
-                            <span class="card-title"><small>28<sup>th</sup> July 2019</small><br>Introduction to
-                                progrmaming basics for Freshers
-                            </span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
-                                    class="material-icons">event</i></a>
-                        </div>
-                        <div class="card-content">
-                            <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
-                                projects by students.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="event_Basics.php">Know More</a>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="event_ML_WS1.php">
-                <div class="col s12 m6 l4 ">
-                    <div class="card hoverable ">
-                        <div class="card-image">
-                            <img src="./img/ML_WS1-min.JPG">
-                            <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Gentle
-                                introduction to Machine Learning through Python
-                            </span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
-                                    class="material-icons">event</i></a>
-                        </div>
-                        <div class="card-content">
-                            <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
-                                projects by students.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="event_ML_WS1.php">Know More</a>
+                </a>
+                <a href="event_Basics.php">
+                    <div class="col s12 m6 l4 ">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/IMG_0495-min.JPG">
+                                <span class="card-title"><small>28<sup>th</sup> July 2019</small><br>Introduction to
+                                    progrmaming basics for Freshers
+                                </span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
+                                        class="material-icons">event</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
+                                    projects by students.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="event_Basics.php">Know More</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
-            <!-- <a href="event_inauguration.php">
+                </a>
+                <a href="event_ML_WS1.php">
+                    <div class="col s12 m6 l4 ">
+                        <div class="card hoverable ">
+                            <div class="card-image">
+                                <img src="./img/ML_WS1-min.JPG">
+                                <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Gentle
+                                    introduction to Machine Learning through Python
+                                </span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
+                                        class="material-icons">event</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
+                                    projects by students.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="event_ML_WS1.php">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- <a href="event_inauguration.php">
                 <div class="col s12 m6 l4">
                     <div class="card hoverable">
                         <div class="card-image">
@@ -283,8 +275,52 @@
             </a> -->
 
 
+            </div>
         </div>
         <!-- </div> -->
+    </section>
+    <section class="FAQ" style='margin-bottom:70px;'>
+        <div class="row container" style="width: 90%;">
+            <div class="col s6 m6">
+                <p class="subtopic">FAQ </p>
+            </div>
+            <!-- <div class="col s6 m6">
+                <p class="right" style="margin-top:6%;"><a href="events.php" class="grey-text text-darken-1">All
+                        Events</a></p>
+            </div> -->
+        </div>
+
+        <div class="container">
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header">What is DSC ?</div>
+                    <div class="collapsible-body"><span>Developer Students’ Club is a Google Developers program for
+                            university students, designed to help them build their development skills in various
+                            domains. It is an officially recognized Students’ Club.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">What do we do?</div>
+                    <div class="collapsible-body"><span>Developer Students Club is a Google recognized student
+                            body at IIT Bhilai which directly reports to Google Developers for their activities and
+                            is
+                            supported by the tech giant. DSC-IIT Bh. conducts workshops, seminars and other fun
+                            activities which help the students connect with Google.
+                            And we give Google interview
+                            referrals too!</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">How can i be a Member</div>
+                    <div class="collapsible-body"><span>Being a member is as easy as registering in our website and
+                            its completely free of
+                            cost.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">How can i be a Core Member</div>
+                    <div class="collapsible-body"><span>You have compete with others trying to get into the field
+                            and prove yourself.</span></div>
+                </li>
+            </ul>
+        </div>
     </section>
     <!-- events end -->
 
@@ -395,7 +431,12 @@
             setTimeout(showSlides, 5 * 1000); // Change image every 2 seconds
         }
     </script> -->
-
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems);
+    });
+    </script>
 </body>
 <?php require 'footer.php'; ?>
 
