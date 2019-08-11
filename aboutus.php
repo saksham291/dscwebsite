@@ -36,22 +36,8 @@
                             leaders.</li>
                     </ul>
                 </div> -->
-                <ul class="collapsible ">
-                    <li>
-                        <div class="collapsible-header">Why</div>
-                        <div class="collapsible-body"><span>Developer Students’ Club is a Google Developers program for
-                                university students, designed to help them build their development skills in various
-                                domains. It is an officially recognized Students’ Club.</span></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header">Second</div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header">Third</div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                </ul>
+
+
 
 
                 <p>The following are the core members of the Student Developer Club - IIT Bhilai</p>
@@ -295,12 +281,7 @@
         <?php require 'footer.php'; ?>
         <div style="height: 50px;"></div>
     </main>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.collapsible');
-        var instances = M.Collapsible.init(elems);
-    });
-    </script>
+
 </body>
 
 </html>

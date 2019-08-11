@@ -109,7 +109,7 @@
         <!-- <p class="subtopic">What is DSC ?</p> -->
     </section>
     <!-- events start -->
-    <section class="bg-white ">
+    <section class="bg-white">
         <!-- <div class="col s12 container" style="width:90%"> -->
         <div class="row container" style="width: 90%;">
             <div class="col s6 m6">
@@ -130,35 +130,50 @@
         <div>
 
             <div class="container">
-                <div class="carousel z-depth-3 carousel-slider center">
+                <div class="carousel carousel-slider center">
                     <div class="carousel-fixed-item center">
                         <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
                     </div>
-                    <div class="carousel-item white-text" style='background-image:url("./img/IMG_8036-min.JPG");background-position: center; /* Center the image */
+                    <div class="carousel-item white-text" style='background-image:linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url("./img/IMG_8036-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container' href="#one!">
                         <h2>First Panel</h2>
                         <p class="white-text">This is your first panel</p>
                     </div>
-                    <div class="carousel-item white-text" style='background-image:url("./img/IMG_7838-min.JPG");background-position: center; /* Center the image */
+                    <div class="carousel-item white-text" style='background-image:linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url("./img/IMG_7838-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container' href="#two!">
                         <h2>Second Panel</h2>
                         <p class="white-text">This is your second panel</p>
                     </div>
-                    <div class="carousel-item  white-text" style='background-image:url("./img/IMG_0363-min.JPG");background-position: center; /* Center the image */
+                    <div class="carousel-item  white-text" style='background-image:linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url("./img/IMG_0363-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container' href="#three!">
                         <h2>Third Panel</h2>
                         <p class="white-text">This is your third panel</p>
                     </div>
-                    <div class="carousel-item white-text" style='background-image:url("./img/IMG_7861-min.JPG");background-position: center; /* Center the image */
+                    <div class="carousel-item white-text" style='background-image:linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url("./img/IMG_7861-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container' href="#four!">
                         <h2>Fourth Panel</h2>
                         <p class="white-text">This is your fourth panel</p>
                     </div>
-                    <div class="carousel-item white-text" style='background-image:url("./img/IMG_0326-min.JPG");background-position: center; /* Center the image */
+                    <div class="carousel-item white-text" style='background-image:linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url("./img/IMG_0326-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
   background-size: cover; /* Resize the background image to cover the entire container' href="#fifth!">
                         <h2>Fifth Panel</h2>
@@ -227,9 +242,8 @@
                             <a href="event_ML_WS1.php">Know More</a>
                         </div>
                     </div>
-                </div>
-            </a>
-            <!-- <a href="event_inauguration.php">
+                </a>
+                <!-- <a href="event_inauguration.php">
                 <div class="col s12 m6 l4">
                     <div class="card hoverable">
                         <div class="card-image">
@@ -251,8 +265,52 @@
             </a> -->
 
 
+            </div>
         </div>
         <!-- </div> -->
+    </section>
+    <section class="FAQ" style='margin-bottom:70px;'>
+        <div class="row container" style="width: 90%;">
+            <div class="col s6 m6">
+                <p class="subtopic">FAQ </p>
+            </div>
+            <!-- <div class="col s6 m6">
+                <p class="right" style="margin-top:6%;"><a href="events.php" class="grey-text text-darken-1">All
+                        Events</a></p>
+            </div> -->
+        </div>
+
+        <div class="container">
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header">What is DSC ?</div>
+                    <div class="collapsible-body"><span>Developer Students’ Club is a Google Developers program for
+                            university students, designed to help them build their development skills in various
+                            domains. It is an officially recognized Students’ Club.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">What do we do?</div>
+                    <div class="collapsible-body"><span>Developer Students Club is a Google recognized student
+                            body at IIT Bhilai which directly reports to Google Developers for their activities and
+                            is
+                            supported by the tech giant. DSC-IIT Bh. conducts workshops, seminars and other fun
+                            activities which help the students connect with Google.
+                            And we give Google interview
+                            referrals too!</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">How can i be a Member</div>
+                    <div class="collapsible-body"><span>Being a member is as easy as registering in our website and
+                            its completely free of
+                            cost.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">How can i be a Core Member</div>
+                    <div class="collapsible-body"><span>You have compete with others trying to get into the field
+                            and prove yourself.</span></div>
+                </li>
+            </ul>
+        </div>
     </section>
     <!-- events end -->
 
@@ -323,22 +381,22 @@
   </section> -->
     <!-- projects end -->
     <script>
-        function isHovered(e) {
-            return e === e.parentElement.querySelector(':hover');
-        }
-        document.addEventListener('DOMContentLoaded', function() {
-            let elems = document.querySelectorAll('.carousel');
-            carousels = M.Carousel.init(elems, {
-                fullWidth: true,
-                indicators: true
-            });
-            window.setInterval(() => {
-                // next slide when cursor is not hovering over
-                if (!isHovered(elems[0])) {
-                    carousels[0].next();
-                }
-            }, 5000);
+    function isHovered(e) {
+        return e === e.parentElement.querySelector(':hover');
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+        let elems = document.querySelectorAll('.carousel');
+        carousels = M.Carousel.init(elems, {
+            fullWidth: true,
+            indicators: true
         });
+        window.setInterval(() => {
+            // next slide when cursor is not hovering over
+            if (!isHovered(elems[0])) {
+                carousels[0].next();
+            }
+        }, 5000);
+    });
     </script>
     <!-- <script>
         var slideIndex = 0;
@@ -363,7 +421,12 @@
             setTimeout(showSlides, 5 * 1000); // Change image every 2 seconds
         }
     </script> -->
-
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems);
+    });
+    </script>
 </body>
 <?php require 'footer.php'; ?>
 
