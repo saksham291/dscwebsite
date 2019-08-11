@@ -2,9 +2,15 @@
   width: 75px !important;
   box-sizing: border-box;
   margin: 5px;
-  fill: #2196f3;
+  fill: #2196f3 !important;
 }
 
+.collapsible-body {
+  color: #443c62;
+  background-color: #fafafa !important ;
+}
+.collapsible-header {
+}
 .floater {
   /* margin: 7px 1px !important; */
   box-sizing: border-box;
@@ -167,3 +173,7 @@ img {
 /* #top1 {
   
 } */
+
+html.sr .load-hidden {
+  visibility: hidden;
+}

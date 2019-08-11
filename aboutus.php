@@ -40,7 +40,6 @@
 
 
 
-                <p>The following are the core members of the Student Developer Club - IIT Bhilai</p>
                 <p>
                     <h3 class="dept">DSC Lead</h3><br>
                     <div class="row center-align">

@@ -10,6 +10,9 @@
     </title>
     <link rel="stylesheet" type="text/css" href="css/custom_style.css">
     <link rel="stylesheet" href="css/custom/index.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
 </head>
 
 <body>
@@ -29,14 +32,15 @@
         </div>
     </section>
     <section class="whyDSC bg-grey">
-        <div class="row container" style="width:90%; padding-top: 30px;">
+        <div class="row container" style="width:90%; padding-top: 30px;margin-bottom:0px;">
             <div class="col s12 l6">
                 <p class="subtopic" style="">Why DSC? </p>
-                <p>A Developer Students Club is a Google recognized student body at a college which directly reports
+                <p style='font-size:1.15em;'>A Developer Students Club is a Google recognized student body at a college
+                    which directly reports
                     to Google for their activities and is supported by the tech giant. A DSC conducts workshops,
                     seminars and other fun activities which help the students connect with Google.</p>
             </div>
-            <div class="col s12 l6 floater-group">
+            <div class="col s12 l6 floater-group load-hidden">
 
                 <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
                 <div class="row">
@@ -109,7 +113,7 @@
         <!-- <p class="subtopic">What is DSC ?</p> -->
     </section>
     <!-- events start -->
-    <section class="bg-white">
+    <section class="bg-white" style='background-color: #fafafa;padding:20px;'>
         <!-- <div class="col s12 container" style="width:90%"> -->
         <div class="row container" style="width: 90%;">
             <div class="col s6 m6">
@@ -129,78 +133,88 @@
         </script> -->
         <div>
 
-            `<div class="container">
-                <div class="carousel carousel-slider center">
+            <div class="container">
+                <div class="carousel carousel-slider center" style='width:90%'>
                     <div class="carousel-fixed-item center">
                         <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
+                    </div>
+                    <div class="carousel-item white-text" style='background-image:url("./img/cloud-study.jpg");background-position: center; /* Center the image */
+  background-repeat: no-repeat;border-radius:50px !important;
+  background-size: auto 100%; /* Resize the background image to cover the entire container' href="#one!">
+                        <!-- <h2>Cloud Study Jam</h2> -->
+                        <!-- <p class="white-text">Registerations Open</p> -->
                     </div>
                     <div class="carousel-item white-text" style='background-image:linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),url("./img/IMG_8036-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  background-size: cover; /* Resize the background image to cover the entire container' href="#one!">
-                        <h2>First Panel</h2>
-                        <p class="white-text">This is your first panel</p>
+  background-size: cover; /* Resize the background image to cover the entire container' href="#two!">
+                        <!-- <h2>Glimpses first ML workshop</h2> -->
+                        <!-- <p class="white-text">This is your first panel</p> -->
                     </div>
                     <div class="carousel-item white-text" style='background-image:linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),url("./img/IMG_7838-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  background-size: cover; /* Resize the background image to cover the entire container' href="#two!">
-                        <h2>Second Panel</h2>
-                        <p class="white-text">This is your second panel</p>
+  background-size: cover; /* Resize the background image to cover the entire container' href="#three!">
+                        <!-- <h2>Second Panel</h2> -->
+                        <!-- <p class="white-text">This is your second panel</p> -->
                     </div>
                     <div class="carousel-item  white-text" style='background-image:linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),url("./img/IMG_0363-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  background-size: cover; /* Resize the background image to cover the entire container' href="#three!">
-                        <h2>Third Panel</h2>
-                        <p class="white-text">This is your third panel</p>
+  background-size: cover; /* Resize the background image to cover the entire container' href="#four!">
+                        <!-- <h2>Third Panel</h2>
+                        <p class="white-text">This is your third panel</p> -->
                     </div>
                     <div class="carousel-item white-text" style='background-image:linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),url("./img/IMG_7861-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  background-size: cover; /* Resize the background image to cover the entire container' href="#four!">
-                        <h2>Fourth Panel</h2>
-                        <p class="white-text">This is your fourth panel</p>
+  background-size: cover; /* Resize the background image to cover the entire container' href="#five!">
+                        <!-- <h2>Fourth Panel</h2>
+                        <p class="white-text">This is your fourth panel</p> -->
                     </div>
                     <div class="carousel-item white-text" style='background-image:linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),url("./img/IMG_0326-min.JPG");background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  background-size: cover; /* Resize the background image to cover the entire container' href="#fifth!">
-                        <h2>Fifth Panel</h2>
-                        <p class="white-text">This is your fourth panel</p>
+  background-size: cover; /* Resize the background image to cover the entire container' href="#six!">
+                        <!-- <h2>Fifth Panel</h2>
+                        <p class="white-text">This is your fourth panel</p> -->
                     </div>
                 </div>
             </div>
         </div>
 
-
         <div class="row container" style="width:90%;margin-top:50px !important;">
-            <a href="event_CSJ.php">
+            <a href='https://forms.gle/rGKsn4HCKBKQT5Ge8' target="_blank">
                 <div class="col s12 m6 l4 ">
-                    <div class="card medium hoverable">
+                    <div class="card medium hoverable ">
                         <div class="card-image">
                             <img src="img/cloud-study.jpg">
                             <span class="card-title"><small>17<sup>th</sup> Aug 2019</small><br>Google Cloud Study
                                 Jam
                             </span>
                         </div>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
+                                class="material-icons">event</i></a>
                         <div class="card-content">
-                            <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
-                                projects by students.</p>
+                            <p>Cloud Study Jam under Google Cloud Fest in IIT Bhilai Academic Block. Registrations
+                                Open
+                                for students of
+                                all Raipur colleges
+                                till 0000
+                            </p>
                         </div>
                         <div class="card-action">
-                            <a href="event_CSJ">Know More</a>
+                            <a href='https://forms.gle/rGKsn4HCKBKQT5Ge8' target="_blank">Join Now</a>
                         </div>
                     </div>
                 </div>
@@ -214,10 +228,12 @@
                                 progrmaming basics for Freshers
                             </span>
                         </div>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
+                                class="material-icons">event</i></a>
                         <div class="card-content">
-                            <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
-                                projects by students.</p>
+                            <p>Half-day workshop for Introduction to Programming Basics through Python for Freshers
+                                of
+                                IIT Bhilai.</p>
                         </div>
                         <div class="card-action">
                             <a href="event_Basics.php">Know More</a>
@@ -230,20 +246,22 @@
                     <div class="card medium hoverable ">
                         <div class="card-image">
                             <img src="./img/ML_WS1-min.JPG">
-                            <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Introduction to Machine Learning with Python
+                            <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Introduction to
+                                Machine Learning with Python
                             </span>
                         </div>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
+                                class="material-icons">event</i></a>
                         <div class="card-content">
                             <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
-                                projects by students.</p>
+                                projects by Core Members.</p>
                         </div>
                         <div class="card-action">
                             <a href="event_ML_WS1.php">Know More</a>
                         </div>
                     </div>
-                </a>
-                <!-- <a href="event_inauguration.php">
+            </a>
+            <!-- <a href="event_inauguration.php">
                 <div class="col s12 m6 l4">
                     <div class="card hoverable">
                         <div class="card-image">
@@ -265,11 +283,11 @@
             </a> -->
 
 
-            </div>
+        </div>
         </div>
         <!-- </div> -->
     </section>
-    <section class="FAQ" style='margin-bottom:70px;'>
+    <section class="FAQ bg-grey" style='padding-bottom:20px;'>
         <div class="row container" style="width: 90%;">
             <div class="col s6 m6">
                 <p class="subtopic">FAQ </p>
@@ -284,12 +302,13 @@
             <ul class="collapsible">
                 <li>
                     <div class="collapsible-header">What is DSC ?</div>
-                    <div class="collapsible-body"><span>Developer Students’ Club is a Google Developers program for
+                    <div class="collapsible-body"><span>Developer Students’ Club is a Google
+                            Developers program for
                             university students, designed to help them build their development skills in various
                             domains. It is an officially recognized Students’ Club.</span></div>
                 </li>
                 <li>
-                    <div class="collapsible-header">What do we do?</div>
+                    <div class="collapsible-header">What do we do ?</div>
                     <div class="collapsible-body"><span>Developer Students Club is a Google recognized student
                             body at IIT Bhilai which directly reports to Google Developers for their activities and
                             is
@@ -299,15 +318,14 @@
                             referrals too!</span></div>
                 </li>
                 <li>
-                    <div class="collapsible-header">How can i be a Member</div>
+                    <div class="collapsible-header">How can i be a Member ?</div>
                     <div class="collapsible-body"><span>Being a member is as easy as registering in our website and
                             its completely free of
                             cost.</span></div>
                 </li>
                 <li>
-                    <div class="collapsible-header">How can i be a Core Member</div>
-                    <div class="collapsible-body"><span>You have compete with others trying to get into the field
-                            and prove yourself.</span></div>
+                    <div class="collapsible-header">How can i be a Core Member ?</div>
+                    <div class="collapsible-body"><span>Show your skill and prove yourself to be the </span></div>
                 </li>
             </ul>
         </div>
@@ -425,6 +443,28 @@
     document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.collapsible');
         var instances = M.Collapsible.init(elems);
+    });
+    </script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+    <script>
+    AOS.init({
+        once: true
+    });
+    </script>
+-->
+    <script>
+    const selectorsToUse = [
+        ['.floater-group', 150],
+        ['.FAQ', 150],
+        // ['.c', 250],
+        // ['.floater-group',350],
+    ]
+    selectorsToUse.forEach((tuple) => {
+        const item = tuple[0],
+            del = tuple[1];
+        ScrollReveal().reveal(item, {
+            delay: del
+        })
     });
     </script>
 </body>

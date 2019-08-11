@@ -1,51 +1,51 @@
 #wrap {
-	position: fixed;
-	width: 100%;
-	height: 100vh;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	perspective: 1px;
-	perspective-origin: 0 0;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 1px;
+  perspective-origin: 0 0;
 }
 
 .bg {
-	background: white;
-	max-height: calc(100vh - 56px);
-	transform-origin: 0 0;
-	transform: translateZ(-1px) scale(2);
+  background: white;
+  max-height: calc(100vh - 56px);
+  transform-origin: 0 0;
+  transform: translateZ(-1px) scale(2);
 }
 .bg img {
-	display: block;
-	width: 100%;
-	height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .cont {
-	padding-top: 30px;
-	position: relative;
-	background: white;
+  padding-top: 30px;
+  position: relative;
+  background: white;
 }
 .dept {
-	display: block;
-	text-align: center;
-	font-weight: bold;
+  display: block;
+  text-align: center;
+  font-weight: bold;
 }
 .member-img {
-    border-radius: 30px;
-    margin: auto;
-	margin-bottom: 20px;
+  border-radius: 30px;
+  margin: auto;
+  margin-bottom: 20px;
 }
 .member-name {
-	font-size: 18px;
-	font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 .btn-flat {
-    text-transform: unset !important;
-    overflow-wrap: break-word;
-    overflow: visible;
+  text-transform: unset !important;
+  overflow-wrap: break-word;
+  overflow: visible;
 }
 .btn-flat:hover {
-	text-transform: unset !important;
+  text-transform: unset !important;
 }
 .card-panel {
-    margin: 25px auto !important;
+  margin: 25px auto !important;
 }

@@ -10,7 +10,7 @@
         <div class="col l4 offset-l2 s12" style="margin-top:2%">
             <ul>
                 <li><a class="grey-text text-lighten-3" href="events.php">Events</a></li>
-                <li><a class="grey-text text-lighten-3" href="projects.php">Projects</a></li>
+                <!-- <li><a class="grey-text text-lighten-3" href="projects.php">Projects</a></li> -->
                 <li><a class="grey-text text-lighten-3" href="aboutus.php">About Us</a></li>
                 <li><a class="grey-text text-lighten-3" href="contactus.php">Contact Us</a></li>
             </ul>
