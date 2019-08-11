@@ -59,7 +59,7 @@
                     <h3 class="dept">DSC Lead</h3><br>
                     <div class="row center-align">
                         <div class="col s12 m4 offset-m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/arjun.jpg">
                             <span class="member-name">Arjun Singh Kushwaha</span><br>
                             <a href="mailto:foo" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>arjuns@iitbhilai.ac.in</a>
@@ -70,13 +70,13 @@
                     <h3 class="dept">Cloud Development</h3>
                     <div class="row center-align">
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/ahaan.jpg">
                             <span class="member-name">Ahaan Dabolkar</span><br>
                             <a href="mailto:ahaand@iitbhilai.ac.in" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>ahaand@iitbhilai.ac.in</a>
                         </div>
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/rishabh.jpg">
                             <span class="member-name">Rishabh Kumar Poddar</span><br>
                             <a href="mailto:rishabhk@iitbhilai.ac.in" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>rishabhk@iitbhilai.ac.in</a>
@@ -99,7 +99,7 @@
                                     class="material-icons left">mail</i>devanshb@iitbhilai.ac.in</a>
                         </div>
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/shubham.jpg">
                             <span class="member-name">Shubham Agrawal</span><br>
                             <a href="mailto:shubhama@iitbhilai.ac.in" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>shubhama@iitbhilai.ac.in</a>
@@ -151,7 +151,7 @@
                                     class="material-icons left">mail</i>pramitb@iitbhilai.ac.in</a>
                         </div>
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/vishal.jpg">
                             <span class="member-name">Vishal Sharma</span><br>
                             <a href="mailto:vishals@iitbhilai.ac.in" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>vishals@iitbhilai.ac.in</a>
@@ -162,7 +162,7 @@
                     <h3 class="dept"> Machine Learning</h3>
                     <div class="row center-align">
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/anees.jpg">
                             <span class="member-name">Anees Ahmed</span><br>
                             <a href="mailto:aneesa@iitbhilai.ac.in" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>aneesa@iitbhilai.ac.in</a>
@@ -182,7 +182,7 @@
                     </div>
                     <div class="row center-align">
                         <div class="col s12 m4 offset-m2">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/harshvardhan.jpg">
                             <span class="member-name">Harshvardhan Patel</span><br>
                             <a href="mailto:harshvardhanp@iitbhilai.ac.in" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>harshvardhanp@iitbhilai.ac.in</a>
@@ -206,13 +206,13 @@
                                     class="material-icons left">mail</i>akashs@iitbhilai.ac.in</a>
                         </div>
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/govind.jpg">
                             <span class="member-name">Govind Kumar Arora</span><br>
                             <a href="mailto:govindk@iitbhilai.ac.in" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>govindk@iitbhilai.ac.in</a>
                         </div>
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/udit.jpg">
                             <span class="member-name">Udit Kushwaha</span><br>
                             <a href="mailto:uditk@iitbhilai.ac.in" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>uditk@iitbhilai.ac.in</a>
@@ -220,19 +220,19 @@
                     </div>
                     <div class="row center-align">
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/aikata.jpg">
                             <span class="member-name">Aikata Sachan</span><br>
                             <a href="mailto:aikata@iitbhilai.ac.in" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>aikata@iitbhilai.ac.in</a>
                         </div>
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/roton.jpg">
                             <span class="member-name">Debajyoti Halder</span><br>
                             <a href="mailto:debajyotih@iitbhilai.ac.in" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>debajyotih@iitbhilai.ac.in</a>
                         </div>
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/siram.jpg">
                             <span class="member-name">Siram Nikhil N Datha Sai Kumar</span><br>
                             <a href="mailto:siramk@iitbhilai.ac.in" class="btn-flat waves-effect"><i
                                     class="material-icons left">mail</i>siramk@iitbhilai.ac.in</a>
@@ -246,7 +246,7 @@
                                     class="material-icons left">mail</i>kumars@iitbhilai.ac.in</a>
                         </div>
                         <div class="col s12 m4">
-                            <img class="member-img responsive-img z-depth-2" src="img/members/shivendu.jpg">
+                            <img class="member-img responsive-img z-depth-2" src="img/members/mayank.jpg">
                             <span class="member-name">Mayank Kumar
                             </span><br>
                             <a href="mailto:mayankk@iitbhilai.ac.in" class="btn-flat waves-effect"><i
