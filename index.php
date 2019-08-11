@@ -29,17 +29,9 @@
         </div>
     </section>
     <section class="whyDSC bg-grey">
-
-        <div class="row container">
-            <div class="col s6 m6">
-                <p class="subtopic" style="">Why DSC? </p>
-            </div>
-
-        </div>
-
-
-        <div class="row container" style="width:90%;line-height:1.7em">
+        <div class="row container" style="width:90%; padding-top: 30px;">
             <div class="col s12 l6">
+                <p class="subtopic" style="">Why DSC? </p>
                 <p>A Developer Students Club is a Google recognized student body at a college which directly reports
                     to Google for their activities and is supported by the tech giant. A DSC conducts workshops,
                     seminars and other fun activities which help the students connect with Google.</p>
@@ -119,7 +111,7 @@
     <!-- events start -->
     <section class="bg-white ">
         <!-- <div class="col s12 container" style="width:90%"> -->
-        <div class="row container">
+        <div class="row container" style="width: 90%;">
             <div class="col s6 m6">
                 <p class="subtopic">Events </p>
             </div>
@@ -135,9 +127,9 @@
             indicators: true
         });
         </script> -->
-        <div class="img-slides">
+        <div>
 
-            <div class="container" style="overflow: visible;">
+            <div class="container">
                 <div class="carousel z-depth-3 carousel-slider center">
                     <div class="carousel-fixed-item center">
                         <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->

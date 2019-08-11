@@ -104,5 +104,15 @@ h3 {
 	border-radius: 10px 10px 0px 0px !important;
 }
 .card-action {
-    border-radius: 0px 0px 10px 10px !important;
+	border-radius: 0px 0px 10px 10px !important;
+}
+.carousel-item {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    border-radius: 20px;
+}
+.carousel {
+    border-radius: 20px;
+    margin-bottom: 80px;
 }

@@ -151,11 +151,3 @@ img {
 		height: auto;
 	} */
 }
-
-.carousel-item {
-	border-radius: 20px;
-}
-.carousel {
-	overflow: visible;
-	border-radius: 20px;
-}
