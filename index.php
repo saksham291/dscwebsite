@@ -48,14 +48,14 @@
 
                 <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
                 <div class="row">
-                    <div class="col s4">
+                    <div class="col s12 l4">
                         <div class="floater card floating-cards center-align">
                             <?php echo file_get_contents("img/web-programming.svg"); ?>
                             <br>
                             Web Development
                         </div>
                     </div>
-                    <div class="col s4">
+                    <div class="col s12 l4">
                         <div class="floater card floating-cards">
                             <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
                             <?php echo file_get_contents("img/chip.svg"); ?>
@@ -65,7 +65,7 @@
                             Artificial Intelligence
                         </div>
                     </div>
-                    <div class="col s4">
+                    <div class="col s12 l4">
                         <div class="floater card floating-cards">
                             <?php echo file_get_contents("img/smartphone.svg"); ?>
                             <br>
@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col s4">
+                    <div class="col s12 l4">
                         <div class="floater card floating-cards">
                             <!-- <img src="img/coding.svg" alt="AI Chip" class='floater-icon'> -->
                             <?php echo file_get_contents("img/coding.svg"); ?>
@@ -87,7 +87,7 @@
                             Competitve Coding
                         </div>
                     </div>
-                    <div class="col s4">
+                    <div class="col s12 l4">
                         <div class="floater card floating-cards">
 
                             <!-- <img src="img/computer.svg" alt="AI Chip" class='floater-icon'>Cloud Computing -->
@@ -97,7 +97,7 @@
                             Cloud Computing
                         </div>
                     </div>
-                    <div class="col s4">
+                    <div class="col s12 l4">
                         <div class="floater card floating-cards">
                             <!-- <img src="img/ui.svg" alt="AI Chip" class='floater-icon'> -->
                             <?php echo file_get_contents("img/ui.svg"); ?>

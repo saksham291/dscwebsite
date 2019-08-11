@@ -31,7 +31,7 @@
 <body>
     <?php require 'header.php'; ?>
     <!-- events start -->
-    <div class="col s12 container" style="width:90%;margin-bottom:8%;background-color:#f7f7f7;">
+    <div class="col s12 container" style="width:90%;margin-bottom:8%;">
         <!-- <div class="col s12 container" style=""> -->
         <p class="login-form-text" style="font-family: 'Arvo', serif; font-size:20px;margin-top:4%;">Events</p>
         <div class="row">
