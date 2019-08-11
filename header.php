@@ -115,6 +115,5 @@
 <ul class="sidenav hide-on-large-only" id="slide-out">
     <li><a href="index.php" class="waves-effect">Home</a></li>
     <li><a href="events.php" class="waves-effect">Events</a></li>
-    <li><a href="projects.php" class="waves-effect">Projects</a></li>
     <li><a href="aboutus.php" class="waves-effect">About us</a></li>
 </ul>

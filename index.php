@@ -300,7 +300,7 @@
 
         <div class="container">
             <ul class="collapsible">
-                <li>
+                <li class="active">
                     <div class="collapsible-header">What is DSC ?</div>
                     <div class="collapsible-body"><span>Developer Students’ Club is a Google
                             Developers program for
@@ -318,13 +318,13 @@
                             referrals too!</span></div>
                 </li>
                 <li>
-                    <div class="collapsible-header">How can i be a Member ?</div>
+                    <div class="collapsible-header">How can I be a Member ?</div>
                     <div class="collapsible-body"><span>Being a member is as easy as registering in our website and
                             its completely free of
                             cost.</span></div>
                 </li>
                 <li>
-                    <div class="collapsible-header">How can i be a Core Member ?</div>
+                    <div class="collapsible-header">How can I be a Core Member ?</div>
                     <div class="collapsible-body"><span>Show your skill and prove yourself to be the </span></div>
                 </li>
             </ul>
