@@ -172,14 +172,14 @@
         <div class="row container" style="width:90%;margin-top:50px !important;">
             <a href="event_CSJ.php">
                 <div class="col s12 m6 l4 ">
-                    <div class="card hoverable">
+                    <div class="card medium hoverable">
                         <div class="card-image">
-                            <img src="background.png">
+                            <img src="img/cloud-study.jpg">
                             <span class="card-title"><small>17<sup>th</sup> Aug 2019</small><br>Google Cloud Study
                                 Jam
                             </span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
                         </div>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
                         <div class="card-content">
                             <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
                                 projects by students.</p>
@@ -192,14 +192,14 @@
             </a>
             <a href="event_Basics.php">
                 <div class="col s12 m6 l4 ">
-                    <div class="card hoverable">
+                    <div class="card medium hoverable">
                         <div class="card-image">
                             <img src="img/IMG_0495-min.JPG">
                             <span class="card-title"><small>28<sup>th</sup> July 2019</small><br>Introduction to
                                 progrmaming basics for Freshers
                             </span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
                         </div>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
                         <div class="card-content">
                             <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
                                 projects by students.</p>
@@ -212,14 +212,13 @@
             </a>
             <a href="event_ML_WS1.php">
                 <div class="col s12 m6 l4 ">
-                    <div class="card hoverable ">
+                    <div class="card medium hoverable ">
                         <div class="card-image">
                             <img src="./img/ML_WS1-min.JPG">
-                            <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Gentle
-                                introduction to Machine Learning through Python
+                            <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Introduction to Machine Learning with Python
                             </span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
                         </div>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
                         <div class="card-content">
                             <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
                                 projects by students.</p>
