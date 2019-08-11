@@ -134,58 +134,42 @@
         <div>
 
             <div class="container">
-                <div class="carousel carousel-slider center" style='width:90%'>
+                <div class="carousel carousel-slider center" style='width:95%;height:90%;'>
                     <div class="carousel-fixed-item center">
                         <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
                     </div>
-                    <div class="carousel-item white-text" style='background-image:url("./img/cloud-study.jpg");background-position: center; /* Center the image */
-  background-repeat: no-repeat;border-radius:50px !important;
-  background-size: auto 100%; /* Resize the background image to cover the entire container' href="#one!">
+                    <div class="carousel-item white-text" style='' href="#one!">
+                        <img src="./img/cloud-study.jpg" style='background-size:100% 100%;' alt="">
                         <!-- <h2>Cloud Study Jam</h2> -->
                         <!-- <p class="white-text">Registerations Open</p> -->
                     </div>
-                    <div class="carousel-item white-text" style='background-image:linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ),url("./img/IMG_8036-min.JPG");background-position: center; /* Center the image */
-  background-repeat: no-repeat;
-  background-size: cover; /* Resize the background image to cover the entire container' href="#two!">
+                    <div class="carousel-item white-text" href="#two!">
+                        <img src="./img/IMG_8036-min.JPG" style='background-size:100% 100%;' alt="">
+
                         <!-- <h2>Glimpses first ML workshop</h2> -->
                         <!-- <p class="white-text">This is your first panel</p> -->
                     </div>
-                    <div class="carousel-item white-text" style='background-image:linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ),url("./img/IMG_7838-min.JPG");background-position: center; /* Center the image */
-  background-repeat: no-repeat;
-  background-size: cover; /* Resize the background image to cover the entire container' href="#three!">
+                    <div class="carousel-item white-text" href="#three!">
+                        <img src="./img/IMG_7838-min.JPG" style='background-size:100% 100%;' alt="">
+
                         <!-- <h2>Second Panel</h2> -->
                         <!-- <p class="white-text">This is your second panel</p> -->
                     </div>
-                    <div class="carousel-item  white-text" style='background-image:linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ),url("./img/IMG_0363-min.JPG");background-position: center; /* Center the image */
-  background-repeat: no-repeat;
-  background-size: cover; /* Resize the background image to cover the entire container' href="#four!">
+                    <div class="carousel-item  white-text" href="#four!">
+                        <img src="./img/IMG_0363-min.JPG" style='background-size:100% 100%;' alt="">
+
                         <!-- <h2>Third Panel</h2>
                         <p class="white-text">This is your third panel</p> -->
                     </div>
-                    <div class="carousel-item white-text" style='background-image:linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ),url("./img/IMG_7861-min.JPG");background-position: center; /* Center the image */
-  background-repeat: no-repeat;
-  background-size: cover; /* Resize the background image to cover the entire container' href="#five!">
+                    <div class="carousel-item white-text" href="#five!">
+                        <img src="./img/IMG_7861-min.JPG" style='background-size:cover;' alt="">
+
                         <!-- <h2>Fourth Panel</h2>
                         <p class="white-text">This is your fourth panel</p> -->
                     </div>
-                    <div class="carousel-item white-text" style='background-image:linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ),url("./img/IMG_0326-min.JPG");background-position: center; /* Center the image */
-  background-repeat: no-repeat;
-  background-size: cover; /* Resize the background image to cover the entire container' href="#six!">
+                    <div class="carousel-item white-text" href="#six!">
+                        <img src="./img/IMG_0326-min.JPG" style='background-size:100% 100%;' alt="">
+
                         <!-- <h2>Fifth Panel</h2>
                         <p class="white-text">This is your fourth panel</p> -->
                     </div>
@@ -210,7 +194,7 @@
                                 Open
                                 for students of
                                 all Raipur colleges
-                                till 0000
+                                till XX-Aug
                             </p>
                         </div>
                         <div class="card-action">

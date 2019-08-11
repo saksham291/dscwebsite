@@ -129,9 +129,10 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 .carousel {
-  border-radius: 20px;
+  border-radius: 20px !important;
   margin-bottom: 80px;
 }
 .btn-floating.btn-large.halfway-fab {
