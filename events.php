@@ -8,23 +8,23 @@
         Developer Student Club - IIT Bhilai
     </title>
     <style media="screen">
-    .video-container {
-        position: relative;
-        padding-bottom: 56.25%;
-        padding-top: 30px;
-        height: 0;
-        overflow: hidden;
-    }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
 
-    .video-container iframe,
-    .video-container object,
-    .video-container embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
+        .video-container iframe,
+        .video-container object,
+        .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 
@@ -34,43 +34,88 @@
     <div class="col s12 container" style="width:90%;margin-bottom:8%;">
         <!-- <div class="col s12 container" style=""> -->
         <p class="login-form-text" style="font-family: 'Arvo', serif; font-size:20px;margin-top:4%;">Events</p>
-        <div class="row">
-            <div class="col s12 m6 l4">
-                <div class="card hoverable">
-                    <div class="card-image">
-                        <img src="background.png">
-                        <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Inauguration Programme -
-                            DSC IIT Bhilai</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large" target="_blank"
-                            href="https://calendar.google.com/event?action=TEMPLATE&text=Inauguration - DSC IIT Bhilai&dates=20190422T063000Z%2F20190422T073000Z&location=Room 207&ctz=Asia/Kolkata"
-                            rel="noreferrer"><i class="material-icons">event</i></a>
-                    </div>
-                    <div class="card-content">
-                        <p>Inauguration of the Developer Students Club at Indian Institute of Technology Bhilai.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="event_inauguration.php">Know more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m6 l4">
-                <div class="card hoverable">
-                    <div class="card-image">
-                        <img src="background.png">
-                        <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Concepts of Python and
-                            Basics of Machine Learning</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
-                                class="material-icons">event</i></a>
-                    </div>
-                    <div class="card-content">
-                        <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
-                            projects by students.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Know More</a>
+        <div class="row container" style="width:90%;margin-top:50px !important;">
+            <a href="event_CSJ.php">
+                <div class="col s12 m6 l4 ">
+                    <div class="card medium hoverable">
+                        <div class="card-image">
+                            <img src="img/cloud-study.jpg">
+                            <span class="card-title"><small>17<sup>th</sup> Aug 2019</small><br>Google Cloud Study
+                                Jam
+                            </span>
+                        </div>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
+                        <div class="card-content">
+                            <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
+                                projects by students.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="event_CSJ">Know More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
+            <a href="event_Basics.php">
+                <div class="col s12 m6 l4 ">
+                    <div class="card medium hoverable">
+                        <div class="card-image">
+                            <img src="img/IMG_0495-min.JPG">
+                            <span class="card-title"><small>28<sup>th</sup> July 2019</small><br>Introduction to
+                                progrmaming basics for Freshers
+                            </span>
+                        </div>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
+                        <div class="card-content">
+                            <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
+                                projects by students.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="event_Basics.php">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="event_ML_WS1.php">
+                <div class="col s12 m6 l4 ">
+                    <div class="card medium hoverable ">
+                        <div class="card-image">
+                            <img src="./img/ML_WS1-min.JPG">
+                            <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Introduction to Machine Learning with Python
+                            </span>
+                        </div>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
+                        <div class="card-content">
+                            <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
+                                projects by students.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="event_ML_WS1.php">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!-- <a href="event_inauguration.php">
+                <div class="col s12 m6 l4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="background.png">
+                            <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Inauguration
+                                Programme
+                                - DSC IIT Bhilai</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red btn-large" target="_blank"
+                                href="https://calendar.google.com/event?action=TEMPLATE&text=Inauguration - DSC IIT Bhilai&dates=20190422T063000Z%2F20190422T073000Z&location=Room 207&ctz=Asia/Kolkata" rel="noreferrer"><i
+                                    class="material-icons">event</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>Inauguration of the Developer Students Club at Indian Institute of Technology
+                                Bhilai.<br><br></p>
+                        </div>
+
+                    </div>
+                </div>
+            </a> -->
+
+
         </div>
     </div>
 

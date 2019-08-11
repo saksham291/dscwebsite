@@ -183,73 +183,63 @@
             </div>
         </div>
 
-        <div class="bg-grey" style='padding:20px;'>
-            <div class="row container" style="width:90%;margin-top:50px !important;">
-                <a href="event_CSJ.php">
-                    <div class="col s12 m6 l4 ">
-                        <div class="card hoverable">
-                            <div class="card-image " style=''>
-                                <div class="img-crd" style='background:linear-gradient(
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.8)
-    ),url("img/IMG_0495-min.JPG");'>
-                                </div>
-                                <!-- <img src="background.png"> -->
-                                <span class="card-title"><small>17<sup>th</sup> Aug 2019</small><br>Google Cloud Study
-                                    Jam
-                                </span>
-                                <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
-                                        class="material-icons">event</i></a>
-                            </div>
-                            <div class="card-content">
-                                <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
-                                    projects by students.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="event_CSJ">Know More</a>
-                            </div>
+
+        <div class="row container" style="width:90%;margin-top:50px !important;">
+            <a href="event_CSJ.php">
+                <div class="col s12 m6 l4 ">
+                    <div class="card medium hoverable">
+                        <div class="card-image">
+                            <img src="img/cloud-study.jpg">
+                            <span class="card-title"><small>17<sup>th</sup> Aug 2019</small><br>Google Cloud Study
+                                Jam
+                            </span>
+                        </div>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
+                        <div class="card-content">
+                            <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
+                                projects by students.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="event_CSJ">Know More</a>
                         </div>
                     </div>
-                </a>
-                <a href="event_Basics.php">
-                    <div class="col s12 m6 l4 ">
-                        <div class="card hoverable">
-                            <div class="card-image">
-                                <img src="img/IMG_0495-min.JPG">
-                                <span class="card-title"><small>28<sup>th</sup> July 2019</small><br>Introduction to
-                                    progrmaming basics for Freshers
-                                </span>
-                                <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
-                                        class="material-icons">event</i></a>
-                            </div>
-                            <div class="card-content">
-                                <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
-                                    projects by students.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="event_Basics.php">Know More</a>
-                            </div>
+                </div>
+            </a>
+            <a href="event_Basics.php">
+                <div class="col s12 m6 l4 ">
+                    <div class="card medium hoverable">
+                        <div class="card-image">
+                            <img src="img/IMG_0495-min.JPG">
+                            <span class="card-title"><small>28<sup>th</sup> July 2019</small><br>Introduction to
+                                progrmaming basics for Freshers
+                            </span>
+                        </div>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
+                        <div class="card-content">
+                            <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
+                                projects by students.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="event_Basics.php">Know More</a>
                         </div>
                     </div>
-                </a>
-                <a href="event_ML_WS1.php">
-                    <div class="col s12 m6 l4 ">
-                        <div class="card hoverable ">
-                            <div class="card-image">
-                                <img src="./img/ML_WS1-min.JPG">
-                                <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Gentle
-                                    introduction to Machine Learning through Python
-                                </span>
-                                <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
-                                        class="material-icons">event</i></a>
-                            </div>
-                            <div class="card-content">
-                                <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
-                                    projects by students.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="event_ML_WS1.php">Know More</a>
-                            </div>
+                </div>
+            </a>
+            <a href="event_ML_WS1.php">
+                <div class="col s12 m6 l4 ">
+                    <div class="card medium hoverable ">
+                        <div class="card-image">
+                            <img src="./img/ML_WS1-min.JPG">
+                            <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Introduction to Machine Learning with Python
+                            </span>
+                        </div>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
+                        <div class="card-content">
+                            <p>Half-day workshop on Python and basics of Machine Learning followed by showcase of ML
+                                projects by students.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="event_ML_WS1.php">Know More</a>
                         </div>
                     </div>
                 </a>
