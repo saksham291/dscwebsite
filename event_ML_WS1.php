@@ -12,14 +12,24 @@
         }
     </style>
     <link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 </head>
 
 <body>
     <?php require('header.php'); ?>
 
+
     <div class="container">
         <h3 class="center-align" style="margin-bottom: 50px;">Introduction to Machine Learning with Python</h3>
-        <div class="carousel carousel-slider z-depth-3 center">
+        <div class="main-carousel" data-flickity='{ "wrapAround":true, "autoPlay":3000}'>
+            <div class="carousel-cell"><img class="responsive-img" src="img/events/210419 (1)-min.jpg')"></div>
+            <div class="carousel-cell"><img class="responsive-img" src="img/events/210419 (2)-min.jpg"></div>
+            <div class="carousel-cell"><img class="responsive-img" src="img/events/210419 (3)-min.jpg"></div>
+            <div class="carousel-cell"><img class="responsive-img" src="img/events/210419 (4)-min.jpg"></div>
+        </div>
+
+		<!-- <div class="carousel carousel-slider z-depth-3 center">
             <div class="carousel-item white-text" style="background-image:url('./img/events/210419 (1)-min.jpg');">
             </div>
             <div class="carousel-item white-text" style="background-image:url('./img/events/210419 (2)-min.jpg');">
@@ -28,7 +38,7 @@
             </div>
             <div class="carousel-item white-text" style="background-image:url('./img/events/210419 (4)-min.jpg');">
             </div>
-        </div>
+        </div> -->
         <p>
             This is the introductory session which will commence with an introduction to Python. The introduction would cover basic constructs of the language – loops, lists and a couple of libraries which will be utilized in the later part of the session.
             We will then provide the motivation for Machine Learning followed by demonstrating some of the projects made by the Third Year Batch. Our focus would be to take the simplest of topics, explain the theory and intuition behind them followed by a working example of the same. The class will be interactive in nature with lots of visualization to facilitate a gentle introduction without overwhelming the audience with a lot of sophisticated concepts. The code examples will in Python and this is where the session will build upon the concepts taugth in the first part.
@@ -40,7 +50,7 @@
 
     <?php require('footer.php'); ?>
 
-    <script>
+    <!-- <script>
         function isHovered(e) {
             return e === e.parentElement.querySelector(':hover');
         }
@@ -57,7 +67,10 @@
                 }
             }, 5000);
         });
-    </script>
+    </script> -->
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 </body>
 
 </html>

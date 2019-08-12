@@ -40,7 +40,7 @@
                     to Google for their activities and is supported by the tech giant. A DSC conducts workshops,
                     seminars and other fun activities which help the students connect with Google.</p>
             </div>
-            <div class="col s12 l6 floater-group load-hidden">
+            <div class="col s12 l6 floater-group">
 
                 <div class="row">
                     <div class="col s12 l4">
@@ -54,8 +54,6 @@
                         <div class="floater card floating-cards">
                             <?php echo file_get_contents("img/chip.svg"); ?>
                             <br>
-
-
                             Artificial Intelligence
                         </div>
                     </div>
@@ -137,7 +135,7 @@
         <div class="row container" style="width:90%;margin-top:50px !important;">
             <a href='https://forms.gle/rGKsn4HCKBKQT5Ge8' target="_blank">
                 <div class="col s12 m6 l4 ">
-                    <div class="card medium hoverable ">
+                    <div class="card medium hoverable event-card">
                         <div class="card-image">
                             <img src="img/cloud-study.jpg">
                             <span class="card-title overlay-txt"><small>17<sup>th</sup> Aug 2019</small><br>Cloud Study
@@ -156,14 +154,14 @@
                             </p>
                         </div>
                         <div class="card-action">
-                            <a href='https://forms.gle/rGKsn4HCKBKQT5Ge8' target="_blank">Join Now</a>
+                            <a href='https://forms.gle/rGKsn4HCKBKQT5Ge8' target="_blank">Register</a>
                         </div>
                     </div>
                 </div>
             </a>
             <a href="event_Basics.php">
                 <div class="col s12 m6 l4 ">
-                    <div class="card medium hoverable">
+                    <div class="card medium hoverable event-card">
                         <div class="card-image">
                             <img src="img/IMG_0495-min.JPG">
                             <span class="card-title overlay-txt"><small>28<sup>th</sup> July
@@ -186,7 +184,7 @@
             </a>
             <a href="event_ML_WS1.php">
                 <div class="col s12 m6 l4 ">
-                    <div class="card medium hoverable ">
+                    <div class="card medium hoverable event-card">
                         <div class="card-image">
                             <img src="./img/ML_WS1-min.JPG">
                             <span class="card-title overlay-txt"><small>21<sup>st</sup> April

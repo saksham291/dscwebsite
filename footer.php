@@ -9,8 +9,8 @@
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="">Home</a></li>
-                    <li><a class="grey-text text-lighten-3" href="events.php">Events</a></li>
+                    <li><a class="grey-text text-lighten-3" href="index.php">Home</a></li>
+                    <li><a class="grey-text text-lighten-3" href="index.php#events">Events</a></li>
                     <li><a class="grey-text text-lighten-3" href="aboutus.php">About Us</a></li>
                 </ul>
             </div>

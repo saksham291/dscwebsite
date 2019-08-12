@@ -194,6 +194,16 @@ html.sr .load-hidden {
 	top: calc(50% + 30px) !important;
 }
 
+.card .card-content{
+	overflow:visible !important;
+}
+
+.event-card:hover{
+	transform: scale(1.05);
+}
+
+
+
 @media (max-width: 700px) {
 	.carousel-cell {
 		width: 85%;
