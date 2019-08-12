@@ -176,7 +176,7 @@
                     <div class="card medium hoverable ">
                         <div class="card-image">
                             <img src="img/cloud-study.jpg">
-                            <span class="card-title"><small>17<sup>th</sup> Aug 2019</small><br>Cloud Study
+                            <span class="card-title overlay-txt"><small>17<sup>th</sup> Aug 2019</small><br>Cloud Study
                                 Jam
                             </span>
                         </div>
@@ -202,7 +202,8 @@
                     <div class="card medium hoverable">
                         <div class="card-image">
                             <img src="img/IMG_0495-min.JPG">
-                            <span class="card-title"><small>28<sup>th</sup> July 2019</small><br>Introduction to
+                            <span class="card-title overlay-txt"><small>28<sup>th</sup> July
+                                    2019</small><br>Introduction to
                                 progrmaming basics for Freshers
                             </span>
                         </div>
@@ -224,7 +225,8 @@
                     <div class="card medium hoverable ">
                         <div class="card-image">
                             <img src="./img/ML_WS1-min.JPG">
-                            <span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Introduction to
+                            <span class="card-title overlay-txt"><small>21<sup>st</sup> April
+                                    2019</small><br>Introduction to
                                 Machine Learning with Python
                             </span>
                         </div>
@@ -298,7 +300,7 @@
                             showcases.
                             From learning about new technologies with materials provided by Google Developers to
                             attending Talks, events, DevFests and connecting with developers around the world, DSC will
-                            help the students get it all.
+                            help the students get it.
                         </span></div>
                 </li>
                 <!-- <li>
@@ -461,8 +463,13 @@
         })
     });
     </script>
+    <script>
+    var instance = M.Sidenav.getInstance(document.querySelectorAll('.sidenav')[0]);
+    console.log(instance);
+    </script>
 </body>
 <?php require 'footer.php'; ?>
+
 
 
 
