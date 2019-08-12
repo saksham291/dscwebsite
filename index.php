@@ -42,7 +42,6 @@
             </div>
             <div class="col s12 l6 floater-group load-hidden">
 
-                <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
                 <div class="row">
                     <div class="col s12 l4">
                         <div class="floater card floating-cards center-align">
@@ -53,7 +52,6 @@
                     </div>
                     <div class="col s12 l4">
                         <div class="floater card floating-cards">
-                            <!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
                             <?php echo file_get_contents("img/chip.svg"); ?>
                             <br>
 
@@ -67,7 +65,6 @@
                             <br>
 
 
-                            <!-- <img src="img/smartphone.svg" alt="AI Chip" class='floater-icon'> -->
                             Mobile Applications
                         </div>
                     </div>
@@ -75,7 +72,6 @@
                 <div class="row">
                     <div class="col s12 l4">
                         <div class="floater card floating-cards">
-                            <!-- <img src="img/coding.svg" alt="AI Chip" class='floater-icon'> -->
                             <?php echo file_get_contents("img/coding.svg"); ?>
                             <br>
 
@@ -86,7 +82,6 @@
                     <div class="col s12 l4">
                         <div class="floater card floating-cards">
 
-                            <!-- <img src="img/computer.svg" alt="AI Chip" class='floater-icon'>Cloud Computing -->
                             <?php echo file_get_contents("img/computer.svg"); ?>
                             <br>
 
@@ -95,7 +90,6 @@
                     </div>
                     <div class="col s12 l4">
                         <div class="floater card floating-cards">
-                            <!-- <img src="img/ui.svg" alt="AI Chip" class='floater-icon'> -->
                             <?php echo file_get_contents("img/ui.svg"); ?>
                             <br>
 
@@ -109,11 +103,10 @@
 
         </div>
 
-
-        <!-- <p class="subtopic">What is DSC ?</p> -->
     </section>
     <!-- events start -->
     <section class="bg-white" style='background-color: #fafafa;padding:20px;'>
+        <a name='events' href='#'></a>
         <!-- <div class="col s12 container" style="width:90%"> -->
         <div class="row container" style="width: 90%;">
             <div class="col s6 m6">
@@ -135,6 +128,7 @@
 
             <div class="container">
                 <div class="carousel carousel-slider center" style='width:95%;height:90%;'>
+
                     <div class="carousel-fixed-item center">
                         <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
                     </div>
@@ -194,7 +188,7 @@
                                 Open
                                 for students of
                                 all Raipur colleges
-                                till XX-Aug
+                                till 14-Aug
                             </p>
                         </div>
                         <div class="card-action">
@@ -215,7 +209,7 @@
                         <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i
                                 class="material-icons">event</i></a>
                         <div class="card-content">
-                            <p>Half-day workshop for Introduction to Programming Basics through Python for Freshers
+                            <p>Workshop for Introduction to Programming Basics through Python for Freshers
                                 of
                                 IIT Bhilai.</p>
                         </div>
@@ -272,6 +266,8 @@
         <!-- </div> -->
     </section>
     <section class="FAQ bg-grey" style='padding-bottom:20px;'>
+        <a name='faq' href='#'></a>
+
         <div class="row container" style="width: 90%;">
             <div class="col s6 m6">
                 <p class="subtopic">FAQ </p>
@@ -286,30 +282,44 @@
             <ul class="collapsible">
                 <li class="active">
                     <div class="collapsible-header">What is DSC ?</div>
-                    <div class="collapsible-body"><span>Developer Students’ Club is a Google
-                            Developers program for
-                            university students, designed to help them build their development skills in various
-                            domains. It is an officially recognized Students’ Club.</span></div>
+                    <div class="collapsible-body"><span>Developer Student Clubs or DSC is a University Program
+                            kickstarted by Google Developers to train thousands of student developers globally and work
+                            with their communities to solve real-life problems. DSC IIT Bhilai was set-up primarily to
+                            ensure that we can bridge the divide between a student’s eagerness to learn and the
+                            technology evolving every day.
+                        </span></div>
                 </li>
                 <li>
                     <div class="collapsible-header">What do we do ?</div>
-                    <div class="collapsible-body"><span>Developer Students Club is a Google recognized student
-                            body at IIT Bhilai which directly reports to Google Developers for their activities and
-                            is
-                            supported by the tech giant. DSC-IIT Bh. conducts workshops, seminars and other fun
-                            activities which help the students connect with Google.
-                            And we give Google interview
-                            referrals too!</span></div>
+                    <div class="collapsible-body"><span> DSC-IIT Bhilai conducts workshops, seminars and other fun
+                            activities for the IIT Bhilai as well as other Raipur colleges.
+                            In addition to workshops, DSCs also provide an opportunity for students to apply their newly
+                            gained skills to develop solutions for local organizations and then provide visibility via
+                            showcases.
+                            From learning about new technologies with materials provided by Google Developers to
+                            attending Talks, events, DevFests and connecting with developers around the world, DSC will
+                            help the students get it all.
+                        </span></div>
                 </li>
-                <li>
+                <!-- <li>
                     <div class="collapsible-header">How can I be a Member ?</div>
-                    <div class="collapsible-body"><span>Being a member is as easy as registering in our website and
-                            its completely free of
-                            cost.</span></div>
-                </li>
+                    <div class="collapsible-body"><span>Forms will be circulated on specific occasions.In case of
+                            unawareness,interested students of IIT Bhilai can contact to the DSC core
+                            Members for the same.</span></div>
+                </li> -->
                 <li>
-                    <div class="collapsible-header">How can I be a Core Member ?</div>
-                    <div class="collapsible-body"><span>Show your skill and prove yourself to be the </span></div>
+                    <div class="collapsible-header">What are the advantages of being a Member ?</div>
+                    <div class="collapsible-body"><span>Advantages of being a Member:
+                            <ol>
+                                <li>Core Members will select people for any projects from the Members of the club.
+                                </li>
+                                <li>Any information related to opportunities that we have, like some nominations for
+                                    internships, will be rolled out to the members</li>
+                                <li>Active Members will be preferred for the selection as Core Members.</li>
+                                <li>Members get certificates and recognition if they do handle responsibilities during
+                                    the
+                                    events, workshops or projects</li>
+                            </ol> </span></div>
                 </li>
             </ul>
         </div>
@@ -429,7 +439,7 @@
         var instances = M.Collapsible.init(elems);
     });
     </script>
-    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
     AOS.init({
         once: true
@@ -453,6 +463,8 @@
     </script>
 </body>
 <?php require 'footer.php'; ?>
+
+
 
 
 </html>
