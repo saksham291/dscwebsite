@@ -249,7 +249,7 @@
             </div>
         </div>
         <?php require 'footer.php'; ?>
-        <div style="height: 50px;"></div>
+        <div style="height: 56px;"></div>
     </main>
 
 </body>
