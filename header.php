@@ -94,8 +94,8 @@
                 <li>
                     <a href="index.php" class="grey-text text-darken-1 active">Home</a>
                 </li>
-                <li><a href="#events" class="grey-text text-darken-1">Events</a></li>
-                <li><a href="#faq" class="grey-text text-darken-1">FAQ</a></li>
+                <li><a href="index.php#events" class="grey-text text-darken-1">Events</a></li>
+                <li><a href="index.php#faq" class="grey-text text-darken-1">FAQ</a></li>
                 <!-- <li><a href="projects.php" class="grey-text text-darken-1">Projects</a></li> -->
                 <li><a href="aboutus.php" class="grey-text text-darken-1">About us</a></li>
             </ul>
