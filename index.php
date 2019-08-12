@@ -54,8 +54,6 @@
 						<div class="floater card floating-cards">
 							<?php echo file_get_contents("img/chip.svg"); ?>
 							<br>
-
-
 							Artificial Intelligence
 						</div>
 					</div>
@@ -63,8 +61,6 @@
 						<div class="floater card floating-cards">
 							<?php echo file_get_contents("img/smartphone.svg"); ?>
 							<br>
-
-
 							Mobile Applications
 						</div>
 					</div>
@@ -74,17 +70,13 @@
 						<div class="floater card floating-cards">
 							<?php echo file_get_contents("img/coding.svg"); ?>
 							<br>
-
-
 							Competitve Coding
 						</div>
 					</div>
 					<div class="col s12 l4">
 						<div class="floater card floating-cards">
-
 							<?php echo file_get_contents("img/computer.svg"); ?>
 							<br>
-
 							Cloud Computing
 						</div>
 					</div>
@@ -92,11 +84,8 @@
 						<div class="floater card floating-cards">
 							<?php echo file_get_contents("img/ui.svg"); ?>
 							<br>
-
-
 							UI/UX Design
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -117,13 +106,6 @@
 						Events</a></p>
 			</div>
 		</div>
-
-		<!-- <script>
-        $('.carousel.carousel-slider').carousel({
-            fullWidth: true,
-            indicators: true
-        });
-        </script> -->
 
 		<div class="main-carousel" data-flickity='{ "wrapAround":true, "autoPlay":3000}'>
 			<div class="carousel-cell"><img class="responsive-img" src="img/cloud-study.jpg"></div>
