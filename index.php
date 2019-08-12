@@ -42,7 +42,6 @@
 			</div>
 			<div class="col s12 l6 floater-group load-hidden">
 
-				<!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
 				<div class="row">
 					<div class="col s12 l4">
 						<div class="floater card floating-cards center-align">
@@ -53,7 +52,6 @@
 					</div>
 					<div class="col s12 l4">
 						<div class="floater card floating-cards">
-							<!-- <img src="img/chip.svg" alt="AI Chip" class='floater-icon'> -->
 							<?php echo file_get_contents("img/chip.svg"); ?>
 							<br>
 
@@ -67,7 +65,6 @@
 							<br>
 
 
-							<!-- <img src="img/smartphone.svg" alt="AI Chip" class='floater-icon'> -->
 							Mobile Applications
 						</div>
 					</div>
@@ -75,7 +72,6 @@
 				<div class="row">
 					<div class="col s12 l4">
 						<div class="floater card floating-cards">
-							<!-- <img src="img/coding.svg" alt="AI Chip" class='floater-icon'> -->
 							<?php echo file_get_contents("img/coding.svg"); ?>
 							<br>
 
@@ -86,7 +82,6 @@
 					<div class="col s12 l4">
 						<div class="floater card floating-cards">
 
-							<!-- <img src="img/computer.svg" alt="AI Chip" class='floater-icon'>Cloud Computing -->
 							<?php echo file_get_contents("img/computer.svg"); ?>
 							<br>
 
@@ -95,7 +90,6 @@
 					</div>
 					<div class="col s12 l4">
 						<div class="floater card floating-cards">
-							<!-- <img src="img/ui.svg" alt="AI Chip" class='floater-icon'> -->
 							<?php echo file_get_contents("img/ui.svg"); ?>
 							<br>
 
@@ -109,11 +103,10 @@
 
 		</div>
 
-
-		<!-- <p class="subtopic">What is DSC ?</p> -->
 	</section>
 	<!-- events start -->
-	<section class="bg-white" style='background-color: #fafafa;'>
+	<section class="bg-white" style='background-color: #fafafa;padding:20px;'>
+		<a name='events' href='#'></a>
 		<!-- <div class="col s12 container" style="width:90%"> -->
 		<div class="row container" style="width: 90%;">
 			<div class="col s6 m6">
@@ -124,6 +117,13 @@
 						Events</a></p>
 			</div>
 		</div>
+
+		<!-- <script>
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+        </script> -->
 
 		<div class="main-carousel" data-flickity='{ "wrapAround":true, "autoPlay":3000}'>
 			<div class="carousel-cell"><img class="responsive-img" src="img/cloud-study.jpg"></div>
@@ -140,7 +140,7 @@
 					<div class="card medium hoverable ">
 						<div class="card-image">
 							<img src="img/cloud-study.jpg">
-							<span class="card-title"><small>17<sup>th</sup> Aug 2019</small><br>Google Cloud Study
+							<span class="card-title overlay-txt"><small>17<sup>th</sup> Aug 2019</small><br>Cloud Study
 								Jam
 							</span>
 						</div>
@@ -150,7 +150,7 @@
 								Open
 								for students of
 								all Raipur colleges
-								till XX-Aug
+								till 14-Aug
 							</p>
 						</div>
 						<div class="card-action">
@@ -164,13 +164,14 @@
 					<div class="card medium hoverable">
 						<div class="card-image">
 							<img src="img/IMG_0495-min.JPG">
-							<span class="card-title"><small>28<sup>th</sup> July 2019</small><br>Introduction to
+							<span class="card-title overlay-txt"><small>28<sup>th</sup> July
+									2019</small><br>Introduction to
 								progrmaming basics for Freshers
 							</span>
 						</div>
 						<a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
 						<div class="card-content">
-							<p>Half-day workshop for Introduction to Programming Basics through Python for Freshers
+							<p>Workshop for Introduction to Programming Basics through Python for Freshers
 								of
 								IIT Bhilai.</p>
 						</div>
@@ -185,7 +186,8 @@
 					<div class="card medium hoverable ">
 						<div class="card-image">
 							<img src="./img/ML_WS1-min.JPG">
-							<span class="card-title"><small>21<sup>st</sup> April 2019</small><br>Introduction to
+							<span class="card-title overlay-txt"><small>21<sup>st</sup> April
+									2019</small><br>Introduction to
 								Machine Learning with Python
 							</span>
 						</div>
@@ -199,11 +201,12 @@
 						</div>
 					</div>
 			</a>
-		</div>
-		<!-- </div> -->
-	</section>
 
+		</div>
+	</section>
 	<section class="FAQ bg-grey" style='padding-bottom:20px;'>
+		<a name='faq' href='#'></a>
+
 		<div class="row container" style="width: 90%;">
 			<div class="col s6 m6">
 				<p class="subtopic">FAQ </p>
@@ -218,36 +221,49 @@
 			<ul class="collapsible">
 				<li class="active">
 					<div class="collapsible-header">What is DSC ?</div>
-					<div class="collapsible-body"><span>Developer Students’ Club is a Google
-							Developers program for
-							university students, designed to help them build their development skills in various
-							domains. It is an officially recognized Students’ Club.</span></div>
+					<div class="collapsible-body"><span>Developer Student Clubs or DSC is a University Program
+							kickstarted by Google Developers to train thousands of student developers globally and work
+							with their communities to solve real-life problems. DSC IIT Bhilai was set-up primarily to
+							ensure that we can bridge the divide between a student’s eagerness to learn and the
+							technology evolving every day.
+						</span></div>
 				</li>
 				<li>
 					<div class="collapsible-header">What do we do ?</div>
-					<div class="collapsible-body"><span>Developer Students Club is a Google recognized student
-							body at IIT Bhilai which directly reports to Google Developers for their activities and
-							is
-							supported by the tech giant. DSC-IIT Bh. conducts workshops, seminars and other fun
-							activities which help the students connect with Google.
-							And we give Google interview
-							referrals too!</span></div>
+					<div class="collapsible-body"><span> DSC-IIT Bhilai conducts workshops, seminars and other fun
+							activities for the IIT Bhilai as well as other Raipur colleges.
+							In addition to workshops, DSCs also provide an opportunity for students to apply their newly
+							gained skills to develop solutions for local organizations and then provide visibility via
+							showcases.
+							From learning about new technologies with materials provided by Google Developers to
+							attending Talks, events, DevFests and connecting with developers around the world, DSC will
+							help the students get it.
+						</span></div>
 				</li>
+				<!-- <li>
+                    <div class="collapsible-header">How can I be a Member ?</div>
+                    <div class="collapsible-body"><span>Forms will be circulated on specific occasions.In case of
+                            unawareness,interested students of IIT Bhilai can contact to the DSC core
+                            Members for the same.</span></div>
+                </li> -->
 				<li>
-					<div class="collapsible-header">How can I be a Member ?</div>
-					<div class="collapsible-body"><span>Being a member is as easy as registering in our website and
-							its completely free of
-							cost.</span></div>
-				</li>
-				<li>
-					<div class="collapsible-header">How can I be a Core Member ?</div>
-					<div class="collapsible-body"><span>Show your skill and prove yourself to be the </span></div>
+					<div class="collapsible-header">What are the advantages of being a Member ?</div>
+					<div class="collapsible-body"><span>Advantages of being a Member:
+							<ol>
+								<li>Core Members will select people for any projects from the Members of the club.
+								</li>
+								<li>Any information related to opportunities that we have, like some nominations for
+									internships, will be rolled out to the members</li>
+								<li>Active Members will be preferred for the selection as Core Members.</li>
+								<li>Members get certificates and recognition if they do handle responsibilities during
+									the
+									events, workshops or projects</li>
+							</ol> </span></div>
 				</li>
 			</ul>
 		</div>
 	</section>
 	<!-- events end -->
-
 
 	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
@@ -256,9 +272,7 @@
 			var elems = document.querySelectorAll('.collapsible');
 			var instances = M.Collapsible.init(elems);
 		});
-	</script>
 
-	<script>
 		const selectorsToUse = [
 			['.floater-group', 150],
 			['.FAQ', 150],
@@ -272,6 +286,9 @@
 				delay: del
 			})
 		});
+
+		// var instance = M.Sidenav.getInstance(document.querySelectorAll('.sidenav')[0]);
+		// console.log(instance);
 	</script>
 </body>
 <?php require 'footer.php'; ?>
