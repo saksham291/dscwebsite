@@ -127,7 +127,7 @@
                             </span>
                         </div>
                         <a class="btn-floating halfway-fab waves-effect waves-light red btn-large"
-                            href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20190817T053000Z%2F20190817T113000Z&text=Cloud%20Study%20Jam&location=Room%20107%2C%20207%20and%20Computer%20Centre&details=Cloud%20Study%20Jam%20organized%20by%20Developer%20Student%20club%2C%20Indian%20Institute%20of%20Technology%2C%20Bhilai"
+                            href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20190817T053000Z%2F20190817T120000Z&text=Cloud%20Study%20Jam&location=Room%20107%2C%20207%20and%20Computer%20Centre&details=Cloud%20Study%20Jam%20organized%20by%20Developer%20Student%20club%2C%20Indian%20Institute%20of%20Technology%2C%20Bhilai"
                             rel="noreferrer" target="_blank"><i class="material-icons">event</i></a>
                         <div class="card-content">
                             <p>Cloud Study Jam under Google Cloud Fest in IIT Bhilai Academic Block. Registrations

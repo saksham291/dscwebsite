@@ -172,3 +172,7 @@ img {
 html.sr .load-hidden {
 	visibility: hidden;
 }
+
+.event-card:hover{
+	transform: scale(1.05);
+}
