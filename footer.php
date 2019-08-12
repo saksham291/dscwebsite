@@ -19,6 +19,7 @@
         <div class="center-align" style="margin-bottom: 10px;">
             <a href="https://facebook.com/dsciitbhilai"><i class="fa fa-2x fa-facebook"></i></a>
             <a href="https://instagram.com/dsc_iitbhilai"><i class="fa fa-2x fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/developer-student-club-iit-bhilai/"><i class="fa fa-2x fa-linkedin"></i></a>
         </div>
     </div>
 
