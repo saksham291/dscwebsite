@@ -109,7 +109,7 @@ h3 {
 		height: 7px;
 	}
 }
-/* 
+/*
 .collapsible-header {
   background-color: #cdd4da;
   box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.6);
@@ -178,4 +178,7 @@ html {
 }
 .fa.fa-facebook {
 	color: #3b5998;
+}
+.fa.fa-linkedin {
+	color: #0077B5;
 }
