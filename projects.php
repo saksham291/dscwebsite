@@ -7,7 +7,7 @@
     <title>
         Developer Student Club - IIT Bhilai
     </title>
-
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>

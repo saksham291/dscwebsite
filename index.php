@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/custom/index.css">
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <script src="https://unpkg.com/scrollreveal"></script>
-
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>

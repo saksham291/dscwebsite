@@ -11,6 +11,7 @@
             font-size: 18px;
         }
     </style>
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>
