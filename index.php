@@ -61,7 +61,7 @@
 						<div class="floater card floating-cards">
 							<?php echo file_get_contents("img/smartphone.svg"); ?>
 							<br>
-							Mobile Applications
+							App Development
 						</div>
 					</div>
 				</div>
@@ -70,14 +70,14 @@
 						<div class="floater card floating-cards">
 							<?php echo file_get_contents("img/coding.svg"); ?>
 							<br>
-							Competitve Coding
+							Competitve Programming
 						</div>
 					</div>
 					<div class="col s12 l4">
 						<div class="floater card floating-cards">
 							<?php echo file_get_contents("img/computer.svg"); ?>
 							<br>
-							Cloud Computing
+							Cloud Development
 						</div>
 					</div>
 					<div class="col s12 l4">
@@ -216,13 +216,10 @@
                 </li>
                 <li>
                     <div class="collapsible-header">What do we do ?</div>
-                    <div class="collapsible-body"><span> DSC-IIT Bhilai conducts workshops, seminars and other fun
-                            activities for the IIT Bhilai as well as other Raipur colleges.
-                            In addition to workshops, DSCs also provide an opportunity for students to apply their newly
-                            gained skills to develop solutions for local organizations and then provide visibility via
-                            showcases.
+                    <div class="collapsible-body"><span> DSC IIT Bhilai conducts workshops, seminars and technical showcases for IIT Bhilai as well as other colleges in Raipur.
+                            In addition to workshops, DSC IIT Bhilai also provides an opportunity for students to apply their newly gained skills to develop solutions for local organizations and then provide visibility via showcases.
                             From learning about new technologies with materials provided by Google Developers to
-                            attending Talks, events, DevFests and connecting with developers around the world, DSC will
+                            attending talks, events, DevFests and connecting with developers around the world, DSC will
                             help the students get it.
                         </span></div>
                 </li>
@@ -239,11 +236,11 @@
                                 <li>Core Members will select people for any projects from the Members of the club.
                                 </li>
                                 <li>Any information related to opportunities that we have, like some nominations for
-                                    internships, will be rolled out to the members</li>
+                                    internships, will be rolled out to the members.</li>
                                 <li>Active Members will be preferred for the selection as Core Members.</li>
                                 <li>Members get certificates and recognition if they do handle responsibilities during
                                     the
-                                    events, workshops or projects</li>
+                                    events, workshops or projects.</li>
                             </ol> </span></div>
                 </li>
             </ul>
