@@ -42,62 +42,53 @@
             </div>
             <div class="col s12 l6 floater-group">
 
-                <div class="row">
-                    <div class="col s12 l4">
-                        <div class="floater card floating-cards center-align">
-                            <?php echo file_get_contents("img/web-programming.svg"); ?>
-                            <br>
-                            Web Development
-                        </div>
-                    </div>
-                    <div class="col s12 l4">
-                        <div class="floater card floating-cards">
-                            <?php echo file_get_contents("img/chip.svg"); ?>
-                            <br>
-                            Artificial Intelligence
-                        </div>
-                    </div>
-                    <div class="col s12 l4">
-                        <div class="floater card floating-cards">
-                            <?php echo file_get_contents("img/smartphone.svg"); ?>
-                            <br>
-
-
-                            Mobile Applications
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 l4">
-                        <div class="floater card floating-cards">
-                            <?php echo file_get_contents("img/coding.svg"); ?>
-                            <br>
-
-
-                            Competitve Coding
-                        </div>
-                    </div>
-                    <div class="col s12 l4">
-                        <div class="floater card floating-cards">
-
-                            <?php echo file_get_contents("img/computer.svg"); ?>
-                            <br>
-
-                            Cloud Computing
-                        </div>
-                    </div>
-                    <div class="col s12 l4">
-                        <div class="floater card floating-cards">
-                            <?php echo file_get_contents("img/ui.svg"); ?>
-                            <br>
-
-
-                            UI/UX Design
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+				<div class="row">
+					<div class="col s12 l4">
+						<div class="floater card floating-cards center-align">
+							<?php echo file_get_contents("img/web-programming.svg"); ?>
+							<br>
+							Web Development
+						</div>
+					</div>
+					<div class="col s12 l4">
+						<div class="floater card floating-cards">
+							<?php echo file_get_contents("img/chip.svg"); ?>
+							<br>
+							Artificial Intelligence
+						</div>
+					</div>
+					<div class="col s12 l4">
+						<div class="floater card floating-cards">
+							<?php echo file_get_contents("img/smartphone.svg"); ?>
+							<br>
+							Mobile Applications
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 l4">
+						<div class="floater card floating-cards">
+							<?php echo file_get_contents("img/coding.svg"); ?>
+							<br>
+							Competitve Coding
+						</div>
+					</div>
+					<div class="col s12 l4">
+						<div class="floater card floating-cards">
+							<?php echo file_get_contents("img/computer.svg"); ?>
+							<br>
+							Cloud Computing
+						</div>
+					</div>
+					<div class="col s12 l4">
+						<div class="floater card floating-cards">
+							<?php echo file_get_contents("img/ui.svg"); ?>
+							<br>
+							UI/UX Design
+						</div>
+					</div>
+				</div>
+			</div>
 
         </div>
 
@@ -116,21 +107,14 @@
             </div>
         </div>
 
-        <!-- <script>
-        $('.carousel.carousel-slider').carousel({
-            fullWidth: true,
-            indicators: true
-        });
-        </script> -->
-
-        <div class="main-carousel" data-flickity='{ "wrapAround":true, "autoPlay":3000}'>
-            <div class="carousel-cell"><img class="responsive-img" src="img/cloud-study.jpg"></div>
-            <div class="carousel-cell"><img class="responsive-img" src="img/IMG_8036-min.JPG"></div>
-            <div class="carousel-cell"><img class="responsive-img" src="img/IMG_7838-min.JPG"></div>
-            <div class="carousel-cell"><img class="responsive-img" src="img/IMG_0363-min.JPG"></div>
-            <div class="carousel-cell"><img class="responsive-img" src="img/IMG_7861-min.JPG"></div>
-            <div class="carousel-cell"><img class="responsive-img" src="img/IMG_0326-min.JPG"></div>
-        </div>
+		<div class="main-carousel" data-flickity='{ "wrapAround":true, "autoPlay":3000}'>
+			<div class="carousel-cell"><img class="responsive-img" src="img/cloud-study.jpg"></div>
+			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_8036-min.JPG"></div>
+			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_7838-min.JPG"></div>
+			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_0363-min.JPG"></div>
+			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_7861-min.JPG"></div>
+			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_0326-min.JPG"></div>
+		</div>
 
         <div class="row container" style="width:90%;margin-top:50px !important;">
             <a href='https://forms.gle/rGKsn4HCKBKQT5Ge8' target="_blank">
