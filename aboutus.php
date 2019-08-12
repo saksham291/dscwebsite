@@ -22,32 +22,13 @@
                 <h2 class="center-align" style="margin-bottom: 0px;">Developer Student Club</h2>
                 <h4 class="center-align" style="margin-top:0px;">Powered by Google Developers</h4>
 
-                <!-- <div class="card-panel hoverable grey lighten-4">
-                    <p>Google collaborates with university students who are passionate about growing developer communities and supports them with starting student clubs on their campuses.</p>
-                </div>
-                <div class="card-panel hoverable grey lighten-4">
-
-                    <p>These DSCs provide students with the opportunity to:</p>
-                    <ul>
-                        <li>Grow their knowledge on developer technologies and more through peer to peer workshops
-                            and events.</li>
-                        <li>Gain relevant industry experience by solving problems for local organizations with
-                            technology based solutions.</li>
-                        <li>Showcase their prototypes and solutions to their local community and industry
-                            leaders.</li>
-                    </ul>
-                </div> -->
-
-
-
-
                 <p>
                     <h3 class="dept">DSC Lead</h3><br>
                     <div class="row center-align">
                         <div class="col s12 m4 offset-m4">
                             <img class="member-img responsive-img z-depth-2" src="img/members/arjun.jpg">
                             <span class="member-name">Arjun Singh Kushwaha</span><br>
-                            <a href="mailto:foo" class="btn-flat waves-effect"><i class="material-icons left">mail</i>arjuns@iitbhilai.ac.in</a>
+                            <a href="mailto:arjuns@iitbhilai.ac.in" class="btn-flat waves-effect"><i class="material-icons left">mail</i>arjuns@iitbhilai.ac.in</a>
                         </div>
                     </div>
                     <br>
@@ -249,7 +230,6 @@
             </div>
         </div>
         <?php require 'footer.php'; ?>
-        <div style="height: 56px;"></div>
     </main>
 
 </body>
