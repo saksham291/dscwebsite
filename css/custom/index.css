@@ -166,3 +166,37 @@ img {
 html.sr .load-hidden {
 	visibility: hidden;
 }
+.carousel-cell {
+	width: 50%;
+	height: calc(0.375 * 100vw);
+	margin-right: 75px;
+	border-radius: 20px;
+	transition: transform 1s ease;
+	border-radius: 20px;
+}
+.carousel-cell>img {
+	border-radius: 20px;
+}
+.carousel-cell.is-selected {
+	transform: scale(1.08);
+}
+.main-carousel,
+.flickity-viewport {
+	padding-top: 30px;
+}
+.flickity-button {
+	top: calc(50% + 30px) !important;
+}
+
+@media (max-width: 700px) {
+	.carousel-cell {
+		width: 85%;
+		max-height: 500px;
+		margin-right: 15px;
+		height: calc(0.67 * 100vw);
+	}
+
+	.carousel-cell.is-selected {
+		transform: scale(1);
+	}
+}
