@@ -110,7 +110,7 @@
 		<div class="main-carousel" data-flickity='{ "wrapAround":true, "autoPlay":3000}'>
 			<div class="carousel-cell"><img class="responsive-img" src="img/cloud-study.jpg"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_8036-min.JPG"></div>
-			<div class="carousel-c	ell"><img class="responsive-img" src="img/IMG_7838-min.JPG"></div>
+			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_7838-min.JPG"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_0363-min.JPG"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_7861-min.JPG"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_0326-min.JPG"></div>
@@ -145,14 +145,12 @@
 						<div class="card-image">
 							<img src="img/IMG_0495-min.JPG">
 							<span class="card-title overlay-txt"><small>28<sup>th</sup> July
-									2019</small><br>Fundamentals of programming using python for Freshers
+									2019</small><br>Fundamentals of Programming using Python
 							</span>
 						</div>
 						<a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
 						<div class="card-content">
-							<p>Workshop for Fundamentals of programming through Python for Freshers
-								of
-								IIT Bhilai.</p>
+							<p>Workshop for Fundamentals of programming through Python.</p>
 						</div>
 						<div class="card-action">
 							<a href="event_Basics.php">Know More</a>
