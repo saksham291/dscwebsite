@@ -101,16 +101,16 @@
 			<div class="col s6 m6">
 				<p class="subtopic">Events </p>
 			</div>
-			<div class="col s6 m6">
-				<p class="right" style="margin-top:6%;"><a href="events.php" class="grey-text text-darken-1">All
-						Events</a></p>
-			</div>
+			<!-- <div class="col s6 m6">
+                <p class="right" style="margin-top:6%;"><a href="events.php" class="grey-text text-darken-1">All
+                        Events</a></p>
+            </div> -->
 		</div>
 
 		<div class="main-carousel" data-flickity='{ "wrapAround":true, "autoPlay":3000}'>
 			<div class="carousel-cell"><img class="responsive-img" src="img/cloud-study.jpg"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_8036-min.JPG"></div>
-			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_7838-min.JPG"></div>
+			<div class="carousel-c	ell"><img class="responsive-img" src="img/IMG_7838-min.JPG"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_0363-min.JPG"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_7861-min.JPG"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_0326-min.JPG"></div>
@@ -145,13 +145,12 @@
 						<div class="card-image">
 							<img src="img/IMG_0495-min.JPG">
 							<span class="card-title overlay-txt"><small>28<sup>th</sup> July
-									2019</small><br>Introduction to
-								progrmaming basics for Freshers
+									2019</small><br>Fundamentals of programming using python for Freshers
 							</span>
 						</div>
 						<a class="btn-floating halfway-fab waves-effect waves-light red btn-large"><i class="material-icons">event</i></a>
 						<div class="card-content">
-							<p>Workshop for Introduction to Programming Basics through Python for Freshers
+							<p>Workshop for Fundamentals of programming through Python for Freshers
 								of
 								IIT Bhilai.</p>
 						</div>
