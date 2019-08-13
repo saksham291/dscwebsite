@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">Developer Student Club - Indian Institute of Technology, Bhilai</h5>
+                <h5 class="white-text">Developer Student Club - Indian Institute of Technology Bhilai</h5>
                 <p class="grey-text text-lighten-4">Powered by Google Developers</p>
             </div>
 
