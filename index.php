@@ -117,7 +117,7 @@
 		</div>
 
         <div class="row container" style="width:90%;margin-top:50px !important;">
-            <a href='https://forms.gle/rGKsn4HCKBKQT5Ge8' target="_blank">
+            <a href='https://forms.gle/x93gvUD1MRo7RHmQA' target="_blank">
                 <div class="col s12 m6 l4 ">
                     <div class="card medium hoverable event-card">
                         <div class="card-image">
@@ -138,7 +138,7 @@
                             </p>
                         </div>
                         <div class="card-action">
-                            <a href='https://forms.gle/rGKsn4HCKBKQT5Ge8' target="_blank">Register</a>
+                            <a href='https://forms.gle/x93gvUD1MRo7RHmQA' target="_blank">Register</a>
                         </div>
                     </div>
                 </div>
