@@ -94,7 +94,7 @@
 
     </section>
     <!-- events start -->
-    <section class="bg-white" style='background-color: #fafafa;padding:20px;'>
+    <section class="bg-white" style='background-color: #fafafa;'>
         <a name='events' href='#'></a>
         <!-- <div class="col s12 container" style="width:90%"> -->
         <div class="row container" style="width: 90%;">
