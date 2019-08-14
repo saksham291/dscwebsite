@@ -106,7 +106,7 @@
 <!-- Sidebar -->
 <ul class="sidenav hide-on-large-only" id="slide-out">
     <li><a href="index.php" class="waves-effect">Home</a></li>
-    <li><a href="#events" class="waves-effect">Events</a></li>
-    <li><a href="#faq" class="waves-effect">FAQ</a></li>
+    <li><a href="index.php#events" class="waves-effect">Events</a></li>
+    <li><a href="index.php#faq" class="waves-effect">FAQ</a></li>
     <li><a href="aboutus.php" class="waves-effect">About us</a></li>
 </ul>
