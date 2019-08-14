@@ -35,10 +35,11 @@
 		<div class="row container" style="width:90%; padding-top: 30px;margin-bottom:0px;">
 			<div class="col s12 l6">
 				<p class="subtopic" style="">Why DSC? </p>
-				<p style='font-size:1.15em;'>A Developer Students Club is a Google recognized student body at a college
-					which directly reports
-					to Google for their activities and is supported by the tech giant. A DSC conducts workshops,
-					seminars and other fun activities which help the students connect with Google.</p>
+				<p style='font-size:1.15em;'>A Developer Students Club is a globally recognized student body
+				which helps students to have the opportunity to not only learn development skills, but it also acts as
+				a medium to apply them to real life problems by finding solutions, and then showcasing their work within their
+				communities.By developing solutions for local businesses/organizations, the talented college students can now help
+				the local community and have a hands-on experience for building real world applications.</p>
 			</div>
 			<div class="col s12 l6 floater-group">
 
