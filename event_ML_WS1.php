@@ -18,7 +18,7 @@
 <body>
 	<?php require('header.php'); ?>
 
-	<h3 class="center-align" style="margin-bottom: 50px;">Introduction to Programming Basics for Freshers</h3>
+	<h3 class="center-align" style="margin-bottom: 50px;">Introduction to Machine learning with Python</h3>
 
 	<div class="main-carousel" data-flickity='{ "wrapAround":true, "autoPlay":3000}'>
 	<div class="carousel-cell"><img class="responsive-img" src="img/events/210419 (2)-min.jpg"></div>
