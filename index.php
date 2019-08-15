@@ -20,6 +20,7 @@
 	<section id="top"></section>
 	<?php require 'header.php'; ?>
 	<section id="top1" class="full-page bg-grey">
+       <a name='home' href='#'></a>
 		<div class="center" style="padding-top:4%; max-height: 100vh;">
 			<h4 class="white-text main-text">
 				<!-- "Hello World!!" We are<br> -->

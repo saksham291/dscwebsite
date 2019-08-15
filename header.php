@@ -92,7 +92,7 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <?php $curr = basename($_SERVER['PHP_SELF']); ?>
                 <li>
-                    <a href="index.php" class="grey-text text-darken-1 active">Home</a>
+                    <a href="index.php#home" class="grey-text text-darken-1 active">Home</a>
                 </li>
                 <li><a href="index.php#events" class="grey-text text-darken-1">Events</a></li>
                 <li><a href="index.php#faq" class="grey-text text-darken-1">FAQ</a></li>
@@ -105,7 +105,7 @@
 
 <!-- Sidebar -->
 <ul class="sidenav hide-on-large-only" id="slide-out">
-    <li><a href="index.php" class="waves-effect">Home</a></li>
+    <li><a href="index.php#home" class="waves-effect">Home</a></li>
     <li><a href="index.php#events" class="waves-effect">Events</a></li>
     <li><a href="index.php#faq" class="waves-effect">FAQ</a></li>
     <li><a href="aboutus.php" class="waves-effect">About us</a></li>
