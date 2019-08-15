@@ -11,7 +11,7 @@
 	</title>
 	<link rel="stylesheet" type="text/css" href="css/custom_style.css">
 	<link rel="stylesheet" href="css/custom/index.css">
-	<script src="https://unpkg.com/scrollreveal"></script>
+	<!-- <script src="https://unpkg.com/scrollreveal"></script> -->
 	<link rel="icon" type="image/png" href="favicon.png">
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
@@ -19,7 +19,7 @@
 <body>
 	<section id="top"></section>
 	<?php require 'header.php'; ?>
-	<section id="top1" class="blue full-page">
+	<section id="top1" class="full-page bg-grey">
 		<div class="center" style="padding-top:4%; max-height: 100vh;">
 			<h4 class="white-text main-text">
 				<!-- "Hello World!!" We are<br> -->

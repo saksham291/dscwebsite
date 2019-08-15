@@ -37,7 +37,7 @@
 <script type="text/javascript" src="js/custom-script.js"></script>
 
 <!-- Hotjar Tracking Code for dsc.iitbhilai.ac.in -->
-<script>
+<!-- <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:1444285,hjsv:6};
@@ -46,4 +46,4 @@
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+</script> -->
