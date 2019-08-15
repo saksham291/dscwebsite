@@ -11,6 +11,7 @@
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="index.php">Home</a></li>
                     <li><a class="grey-text text-lighten-3" href="index.php#events">Events</a></li>
+                    <li><a class="grey-text text-lighten-3" href="index.php#faq">FAQ</a></li>
                     <li><a class="grey-text text-lighten-3" href="aboutus.php">About Us</a></li>
                 </ul>
             </div>
