@@ -38,16 +38,6 @@
 <!--custom-script-->
 <script type="text/javascript" src="js/custom-script.js"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145824565-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-145824565-1');
-</script>
-
 
 <!-- Hotjar Tracking Code for dsc.iitbhilai.ac.in -->
 <!-- <script>
