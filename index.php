@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="JtqlLjFb6XBqBorHDcVm6XJ0W65JzgRA7G_5jX_SuO8" />
+	<meta name="google-site-verification" content="JtqlLjFb6XBqBorHDcVm6XJ0W65JzgRA7G_5jX_SuO8" />
 
 	<title>
 		Developer Student Club - IIT Bhilai
@@ -20,7 +20,7 @@
 	<section id="top"></section>
 	<?php require 'header.php'; ?>
 	<section id="top1" class="full-page bg-grey">
-       <a name='home' href='#'></a>
+		<a name='home' href='#'></a>
 		<div class="center" style="padding-top:4%; max-height: 100vh;">
 			<h4 class="white-text main-text">
 				<!-- "Hello World!!" We are<br> -->
@@ -38,10 +38,10 @@
 			<div class="col s12 l6">
 				<p class="subtopic" style="">Why DSC? </p>
 				<p style='font-size:1.15em;'>A Developer Students Club is a globally recognized student body
-				which helps students to have the opportunity to not only learn development skills, but it also acts as
-				a medium to apply them to real life problems by finding solutions, and then showcasing their work within their
-				communities.By developing solutions for local businesses/organizations, the talented college students can now help
-				the local community and have a hands-on experience for building real world applications.</p>
+					which helps students to have the opportunity to not only learn development skills, but it also acts as
+					a medium to apply them to real life problems by finding solutions, and then showcasing their work within their
+					communities.By developing solutions for local businesses/organizations, the talented college students can now help
+					the local community and have a hands-on experience for building real world applications.</p>
 			</div>
 			<div class="col s12 l6 floater-group">
 
@@ -111,7 +111,7 @@
 		</div>
 
 		<div class="main-carousel" data-flickity='{ "wrapAround":true, "autoPlay":3000}'>
-		<div class="carousel-cell"><img class="responsive-img" src="img/codingNinjas_Workshop.jpg"></div>
+			<div class="carousel-cell"><img class="responsive-img" src="img/codingNinjas_Workshop.jpg"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/cloud-study.jpg"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_8036-min.JPG"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_7838-min.JPG"></div>
@@ -122,7 +122,7 @@
 
 		<div class="row container" style="width:90%;margin-top:50px !important;">
 
-		<a href='codingNinjas_Workshop.php' target="_blank">
+			<a href='codingNinjas_Workshop.php' target="_blank">
 				<div class="col s12 m6 l4 ">
 					<div class="card medium hoverable event-card">
 						<div class="card-image">
@@ -140,7 +140,7 @@
 							</p>
 						</div>
 						<div class="card-action">
-							<a href='#' target="_blank">Know More</a>
+							<a href='codingNinjas_Workshop.php'>Know More</a>
 						</div>
 					</div>
 				</div>
@@ -161,7 +161,7 @@
 							</p>
 						</div>
 						<div class="card-action">
-							<a href='codingNinjas_Workshop.php' target="_blank">Know More</a>
+							<a href='#'>Know More</a>
 						</div>
 					</div>
 				</div>
