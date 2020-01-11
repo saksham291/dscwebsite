@@ -122,7 +122,7 @@
 
 		<div class="row container" style="width:90%;margin-top:50px !important;">
 
-			<a href='codingNinjas_Workshop.php' target="_blank">
+			<a href='codingNinjas_Workshop.php'>
 				<div class="col s12 m6 l4 ">
 					<div class="card medium hoverable event-card">
 						<div class="card-image">
@@ -131,7 +131,7 @@
 							</span>
 						</div>
 
-						<a class="btn-floating halfway-fab waves-effect waves-light red btn-large" href="#" rel="noreferrer" target="_blank"><i class="material-icons">event</i></a>
+						<a class="btn-floating halfway-fab waves-effect waves-light red btn-large" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20200118T060000Z%2F20200118T120000Z&text=Coding%20Ninjas%20Workshop&location=B-107%2C%20Academic%20Building%2C%20IIT%20Bhilai&details=" rel="noreferrer" target="_blank"><i class="material-icons">event</i></a>
 
 						<div class="card-content">
 

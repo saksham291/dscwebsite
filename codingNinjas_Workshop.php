@@ -18,7 +18,9 @@
 <body>
 	<?php require('header.php'); ?>
 
-	<h3 class="center-align" style="margin-bottom: 50px;">Introduction to Programming Basics for Freshers</h3>
+	<h3 class="center-align" style="margin-bottom: 50px;">
+		Workshop with Coding Ninjas
+	</h3>
 
 
 	<div class="container">
