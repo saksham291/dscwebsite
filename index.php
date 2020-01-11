@@ -121,6 +121,26 @@
 		</div>
 
 		<div class="row container" style="width:90%;margin-top:50px !important;">
+
+		<a href='codingNinjas_Workshop.php' target="_blank">
+				<div class="col s12 m6 l4 ">
+					<div class="card medium hoverable event-card">
+						<div class="card-image">
+							<img src="img/codingNinjas_Workshop.jpg">
+							<span class="card-title overlay-txt"><small>18<sup>th</sup> Jan 2020</small><br> Workshop with Coding Ninjas (Competitive Programming + DS & Algo)
+							</span>
+						</div>
+						<div class="card-content">
+							<p>DSC IIT Bhilai is collaborating with Coding Ninjas to conduct a workshop on "Data Structures, Algorithms and Competitive Programming". For registrations and more details, click 'Know More'.
+							</p>
+						</div>
+						<div class="card-action">
+							<a href='#' target="_blank">Know More</a>
+						</div>
+					</div>
+				</div>
+			</a>
+
 			<a href='https://forms.gle/x93gvUD1MRo7RHmQA' target="_blank">
 				<div class="col s12 m6 l4 ">
 					<div class="card medium hoverable event-card">
@@ -132,13 +152,11 @@
 						</div>
 						<a class="btn-floating halfway-fab waves-effect waves-light red btn-large" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20190817T053000Z%2F20190817T120000Z&text=Cloud%20Study%20Jam&location=Room%20107%2C%20207%20and%20Computer%20Centre&details=Cloud%20Study%20Jam%20organized%20by%20Developer%20Student%20club%2C%20Indian%20Institute%20of%20Technology%2C%20Bhilai" rel="noreferrer" target="_blank"><i class="material-icons">event</i></a>
 						<div class="card-content">
-							<p>Cloud Study Jam under Google Cloud Fest in IIT Bhilai. Registrations
-								Open
-								till 16 Aug.
+							<p>Cloud Study Jam under Google Cloud Fest in IIT Bhilai.
 							</p>
 						</div>
 						<div class="card-action">
-							<a href='https://forms.gle/x93gvUD1MRo7RHmQA' target="_blank">Register</a>
+							<a href='#' target="_blank">Know More</a>
 						</div>
 					</div>
 				</div>
