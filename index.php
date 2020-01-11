@@ -161,7 +161,7 @@
 							</p>
 						</div>
 						<div class="card-action">
-							<a href='#' target="_blank">Know More</a>
+							<a href='codingNinjas_Workshop.php' target="_blank">Know More</a>
 						</div>
 					</div>
 				</div>
