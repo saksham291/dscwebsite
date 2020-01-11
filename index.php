@@ -111,6 +111,7 @@
 		</div>
 
 		<div class="main-carousel" data-flickity='{ "wrapAround":true, "autoPlay":3000}'>
+		<div class="carousel-cell"><img class="responsive-img" src="img/codingNinjas_Workshop.jpg"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/cloud-study.jpg"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_8036-min.JPG"></div>
 			<div class="carousel-cell"><img class="responsive-img" src="img/IMG_7838-min.JPG"></div>
