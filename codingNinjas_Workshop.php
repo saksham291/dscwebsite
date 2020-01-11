@@ -36,8 +36,8 @@
 		<br/>
 		<br/>
 		Register in both the links, if you want to attend the workshop. <br/>
-		Link 1:  http://bit.ly/37SW8YV <br/>
-		Link 2:  https://forms.gle/5H96hZ5na7iRJsw19
+		Link 1:  <a href="http://bit.ly/37SW8YV ">Link 1</a> <br/>
+		Link 2:   <a href="https://forms.gle/5H96hZ5na7iRJsw19">Link 2</a>
 		<br/><br/>
 Happy Coding, See you there on 18th November at 11:30 am !!
 		</p>

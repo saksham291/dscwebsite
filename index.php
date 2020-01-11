@@ -130,7 +130,12 @@
 							<span class="card-title overlay-txt"><small>18<sup>th</sup> Jan 2020</small><br> Workshop with Coding Ninjas (Competitive Programming + DS & Algo)
 							</span>
 						</div>
+
+						<a class="btn-floating halfway-fab waves-effect waves-light red btn-large" href="#" rel="noreferrer" target="_blank"><i class="material-icons">event</i></a>
+
 						<div class="card-content">
+
+
 							<p>DSC IIT Bhilai is collaborating with Coding Ninjas to conduct a workshop on "Data Structures, Algorithms and Competitive Programming". For registrations and more details, click 'Know More'.
 							</p>
 						</div>
